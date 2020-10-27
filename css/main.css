@@ -1,0 +1,557 @@
+@charset "UTF-8";
+/* ===================================================================
+ * 
+ * Biomagnetismo v1.0 Main Stylesheet
+ * Classes que devem ser renderizadas na primeira tela de carregamento
+ * Essa é a única folha de estilos que deve permanecer no header
+ * 
+ * Conteúdos:
+ *
+ * # base styles
+ * # hamburguer menu
+ * # header
+ * # footer
+
+* =================================================================== */
+
+/* ===================================================================
+ * # base styles
+ *
+ * ------------------------------------------------------------------- */
+    html,
+    body {
+        margin:0;
+        padding:0;
+    }
+    main {
+        position: relative;
+        background-color: #ffffff;
+        margin:0;
+        padding:0;
+        overflow: hidden;
+    }
+    /*.zera-margens {
+      margin:0!important;
+      padding:0!important;
+    }*/
+    .ancora {
+      position: relative;
+      top:-130px;
+    }
+
+
+a.whatsapp {
+  float: right;
+  top:15px;
+  margin:0 6px 0 0;
+  position: relative;
+}
+
+
+a.botao-depoimentos {
+  border: solid 2px #ffffff;    
+  height:36px;
+  border-radius: 30px;
+  padding:7px 60px 9px 27px; 
+  margin-top:20px;
+  display: block;  
+  font-size:13px;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: bold;
+  color: #ffffff!important;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+a.botao-depoimentos:after {
+  content: '>';
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  width:37px;
+  height: 36px;
+  background-color:#3ebee1;
+  color: #fff;
+  border: solid 2px #ffffff;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding:1px 10px 0 10px;
+  position: absolute;
+  top:-2px;
+  right: -2px;
+}
+
+
+
+
+
+
+
+
+
+/* ===================================================================
+ * # hamburguer menu
+ *
+ * ------------------------------------------------------------------- */
+.botMenu {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    height: 49px;
+    /*font-size: 3em;
+    font-size: 0;
+    text-indent: -9999px;*/
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    box-shadow: none;
+    border-radius: none;
+    border: none;
+    cursor: pointer;
+    background-color:transparent;
+
+    -webkit-transition: background 0.3s;
+            transition: background 0.3s;
+}
+.botMenu span {
+    font-size: 2em;
+    color: #0096cc;
+}
+
+.c-hamburger {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;															  
+    width: 60px;
+    height: 49px;
+    font-size: 0;
+    text-indent: -9999px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    box-shadow: none;
+    border-radius: none;
+    border: none;
+    cursor: pointer;
+    -webkit-transition: background 0.3s;
+            transition: background 0.3s;
+}
+.c-hamburger:focus {
+    outline: none;
+}
+.c-hamburger span {
+    display: block;
+    position: absolute;
+    top: 22px;
+    left: 9px;
+    right: 9px;
+    height: 4px;
+    background: #00a2cd;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.c-hamburger span::before {
+    position: absolute;
+    display: block;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #00a2cd;
+    content: "";
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.c-hamburger span::after {
+    position: absolute;
+    display: block;
+    right: 0;
+    width: 60%;
+    height: 4px;
+    background-color: #00a2cd;
+    content: "";
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.c-hamburger span::before {
+    top: -10px;
+}
+.c-hamburger span::after {
+    bottom: -10px;
+}
+
+    /**
+    * Style 2
+    * 
+    * Hamburger to "x" (htx). Takes on a hamburger shape, bars slide
+    * down to center and transform into an "x".
+    */
+    .c-hamburger--htx {
+    background-color:transparent;
+    }
+
+    .c-hamburger--htx span {
+    -webkit-transition: background 0s 0.3s;
+            transition: background 0s 0.3s;
+    }
+
+    .c-hamburger--htx span::before,
+    .c-hamburger--htx span::after {
+    -webkit-transition-duration: 0.3s, 0.3s;
+            transition-duration: 0.3s, 0.3s;
+    -webkit-transition-delay: 0.3s, 0s;
+            transition-delay: 0.3s, 0s;
+    }
+
+    .c-hamburger--htx span::before {
+    -webkit-transition-property: top, -webkit-transform;
+            transition-property: top, transform;
+    }
+
+    .c-hamburger--htx span::after {
+    -webkit-transition-property: bottom, -webkit-transform;
+            transition-property: bottom, transform;
+    }
+
+    /* active state, i.e. menu open */
+    .c-hamburger--htx.is-active {
+    background-color:transparent;
+    }
+
+    .c-hamburger--htx.is-active span {
+    background: none;
+    
+    }
+
+    .c-hamburger--htx.is-active span::before {
+    top: 0;
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);                
+    }
+
+    .c-hamburger--htx.is-active span::after {
+    bottom: 0;
+    -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg);                
+    }
+
+    .c-hamburger--htx.is-active span::before,
+    .c-hamburger--htx.is-active span::after {
+        -webkit-transition-delay: 0s, 0.3s;
+        transition-delay: 0s, 0.3s;
+        background-color: #0096cc;
+        width: 100%;
+    }
+   
+
+
+/* ===================================================================
+ * # header
+ *
+ * ------------------------------------------------------------------- */
+
+#header-principal {
+    position: relative;
+    z-index: 1000;
+    top:0;
+  }
+  #header-principal .container {
+    position: relative;
+  }
+  #header-principal {
+    position: fixed;
+    width: 100%;
+    height: 92px;
+    padding: 10px 0;
+    background: #4e4e99;
+    background-position: left bottom;
+    display: block;
+    z-index: 1000;
+  }
+  #header-principal .container a#logo {
+    /*width: 115px;*/
+    float: left;
+    position: absolute;
+    left: 10px;
+    z-index: 5;
+  }
+  _:-ms-fullscreen,
+  :root a#logo {
+    top: -40px;
+  }
+  #header-principal .open-menu {
+    float: right;
+    display: block;
+    position: relative;
+    top: 10px;
+    z-index: 1002;
+  }
+  /************************************************************/
+  .conteudo-menu-principal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    width: 100%!important;
+    height: 100%!important;
+    margin: 0!important;
+    padding: 0!important;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    background: #4e4e99;
+  }
+  .conteudo-menu-principal .container-fluid,
+  .conteudo-menu-principal .row {
+    width: 100%!important;
+    height: 100%!important;
+    margin: 0!important;
+    padding: 0!important;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+  }
+  .conteudo-menu-principal .menu-principal li {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  @media only screen and (max-width: 319px) {
+    main {display: none!important;}
+    .res-min-nao-atingida {
+      display: block;
+      background-color: #414141;
+      padding:20px;
+      position: fixed;
+      height: 100%;
+      width: 100%;
+    }
+    .res-min-nao-atingida p {
+      color:#fff;
+      font-size: 18px;
+      text-align: center;
+      margin-top: calc(50% - 10px);
+    }    
+  }
+
+  @media only screen and (min-width: 320px) {
+    main {display: block!important;}
+    .res-min-nao-atingida {display: none;}
+
+    .conteudo-menu-principal .menu-principal {
+      list-style: none;
+      text-align: center;
+      margin: 150px 0 0 0;
+      padding: 0;
+    }
+    .conteudo-menu-principal .menu-principal li a {
+      font-family: 'Open Sans', sans-serif;
+      text-transform: uppercase;
+      color: #ffffff;
+      font-weight: bold;
+      display: block;
+      margin: 8px 0 10px 0;
+      font-size: 25px;
+      text-decoration: none;
+      -webkit-transition: 0.2s ease-in-out;
+      -moz-transition: 0.2s ease-in-out;
+      -o-transition: 0.2s ease-in-out;
+      transition: 0.2s ease-in-out;
+    }
+    .conteudo-menu-principal .menu-principal li a:hover {
+      color: #00a2cd;
+      -webkit-transition: 0.2s ease-in-out;
+      -moz-transition: 0.2s ease-in-out;
+      -o-transition: 0.2s ease-in-out;
+      transition: 0.2s ease-in-out;
+    }
+  }
+  @media only screen and (min-width: 992px) {
+    .conteudo-menu-principal .menu-principal {
+      list-style: none;
+      text-align: center;
+      width: 100%;      
+      padding: 0;
+    }
+    .conteudo-menu-principal .menu-principal li a {
+      font-family: 'Open Sans', sans-serif;
+      text-transform: uppercase;
+      color: #ffffff;
+      font-weight: bold;
+      margin: 0 0 8px 0;
+      font-size: 39px;
+      text-decoration: none;
+    }
+  }
+  .logo-recolhido {
+    display: none;
+  }
+
+
+
+/* ===================================================================
+ * # curve div topo
+ *
+ * ------------------------------------------------------------------- */
+
+ @media only screen and (min-width: 320px) {
+  .curve-top {        
+      text-align: center;
+      width: 100%;
+      margin-top: -63px;
+      position: relative;
+      z-index: 10;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+  }
+  .curva {display: none;}
+  .curva-menor {display: block;}
+  .curve-top img {
+      margin:0 auto;
+      width: 151%;
+      height: auto;
+      left: -25%;
+      height:63px;
+      position: relative;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+      
+  }
+  .curve-top .pingo {
+      width: 46px;
+      height: 49px;
+      background-color: #4dbcda;
+      display: block;
+      left: calc(50% - 18px);
+      top:10px;
+      position: absolute;
+      z-index: 2;
+      border-bottom-right-radius: 35px;
+      border-bottom-left-radius: 30px;
+      border-top-right-radius: 35px;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .curva {
+      display: block;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+  }
+  .curva-menor {
+      display: none;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .curve-top img {        
+      width: 111%;
+      height: auto;
+      left: -5%;
+      position: relative;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+  }
+}
+
+
+
+
+
+
+/* ===================================================================
+ * # footer
+ *
+ * ------------------------------------------------------------------- */
+
+
+ @media only screen and (min-width: 320px) {
+  footer img.img-logo {
+      width:200px;
+      display: none;
+      margin:0 auto 30px auto;
+  }
+  footer .redes-sociais {
+    text-align: left;
+    margin-top: 30px;
+  }
+}
+@media only screen and (min-width: 480px) {}
+@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 768px) {
+  footer img.img-logo {
+      display: block;
+      width:200px;
+      margin:0 0 0 0;
+  }
+  footer .redes-sociais {
+    text-align: right;
+  }
+} /*col-sm*/
+@media only screen and (min-width: 830px) {}
+@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 1382px) {} 
+
+footer {
+  background-color: #52509d;
+  padding:80px 0;
+  margin:-181px 0 0 0;
+}
+
+footer h3 {
+  font-family: 'Maven Pro', sans-serif;
+  color:#00a0cb;
+  font-size: 18px;
+}
+footer ul {
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+footer ul li {
+  margin:0;
+  padding:0;
+}
+footer ul li a {
+  font-family: 'Maven Pro', sans-serif;
+  color:#ffffff;
+  font-size: 16px;
+  font-weight: normal;
+}
+footer ul li a:hover {
+  text-decoration: none;
+  color:#00a0cb;
+}
+
+footer .redes-sociais li {
+  display: inline-block;
+  margin-left:20px;
+}
+footer h3 a {
+  font-family: 'Maven Pro', sans-serif;
+  color:#00a0cb;
+  font-size: 18px;
+  font-weight: normal;
+}
+footer h3 a:hover {
+  text-decoration: none;
+  color:#00a0cb;
+}

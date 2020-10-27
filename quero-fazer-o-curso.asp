@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="pt-br"> <!--<![endif]-->
+    <head>
+        <!-- #include file="includes/cod-header.asp" -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Curso de Biomagnetismo - SBBio</title>
+        <meta name="description" content="Faça um curso de Biomagnetismo com a Sociedade Brasileira de Biomagnetismo. Aprenda sobre a teoria e prática da técnica que já auxiliou pessoas no mundo todo. Conheça agora. ">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" sizes="57x57" href="assets/ico/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="assets/ico/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="assets/ico/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="assets/ico/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="assets/ico/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="assets/ico/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="assets/ico/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="assets/ico/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/ico/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="assets/ico/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/ico/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="assets/ico/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/ico/favicon-16x16.png">
+        <link rel="icon" href="favicon.ico" type="image/x-icon"> 
+        
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="assets/ico/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+        <link href="modal-video/css/modal-video.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
+
+        
+    </head>
+    <body>
+        <!-- #include file="includes/cod-body.asp" -->
+        
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="res-min-nao-atingida">
+            <p>A resolução mínima para visualização deste website não foi atingida.</p>
+        </div>
+
+        <main>
+            
+            <!-- #include file="_header-menu.asp" -->
+
+            <section class="nome-da-pagina">
+                <h1>Nossos Cursos</h1>
+            </section>
+
+            <div class="curve-top">
+                <img src="images/curva.png" alt="A curvatura do bloco" class="curva">
+                <img src="images/curva-menor.png" alt="A curvatura do bloco" class="curva-menor">
+                <div class="pingo"></div>
+            </div>
+           
+            <section class="sociedade-brasileira-de-biomagnetismo">
+                <div class="container">
+                    <div class="row">                        
+                        <div class="col-12">
+                            <p>Devido ao surto do Covid-19 e às orientações da OMS, nossos cursos, workshops e demais atividades estão suspensos por tempo indeterminado. Fique atento às novidades e confira alguns cursos já realizados pela SBBio.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="nossos-cursos">
+                <div class="container">                    
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <h3><strong>Formação de Terapeutas: Biomagnetismo para a recuperação da saúde.</strong><br> Curso – Introdução ao Biomagnetismo.</h3>
+                            <p>8 horas.<br>
+                            Um intensivo com o objetivo de introduzir a teoria e prática do Biomagnetismo e despertar novos terapeutas para a prática do rastreio e tratamento com a utilização de ímãs.</p>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <h3><strong>Formação de Terapeutas: Biomagnetismo para a recuperação da saúde.</strong><br> Curso Básico e Avançado 1.</h3>                            
+                            <p>48 horas.<br>
+                            Dois cursos em um único superintensivo, com aulas práticas e teóricas. Desenvolvido para capacitar novos estudantes na Prática do Biomagnetismo, instruindo-os sobre o uso dos ímãs e da Bioenergética. </p>
+                        </div>
+                    </div>
+
+                    <div></div>
+                </div>
+            </section>
+
+            <section class="sobre-novas-turmas">
+                <div class="container">                   
+                          
+                    <div class="row">
+                        <div class="col-12">
+                            <h2>Mantenha-se informado sobre novas turmas.</h2>
+                            <p>A SBBio está sempre realizando novos cursos, workshops e mutirões. Cadastre-se para ficar por dentro de todos eles.</p>
+                            <form action="__cadastro_newsletter.asp" method="post" id="frmNovasTurmas">
+                                <div class="row">
+                                    <div class="col-12 col-md-6">
+                                        <input type="text" id="txtNome" name="txtNome" placeholder="Nome:*" required />
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <input type="email" id="txtEmail" name="txtEmail" placeholder="E-mail:*" required />
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 text-right">
+                                        <button type="submit" class="btn-frm-novas-turmas" id="enviar-quero-fazer-o-curso">Enviar</button>
+                                    </div>
+                                </div>
+                            </form>
+
+                            <div class="popObrigado">
+                                <p class="text-center"><span>Seu cadastro foi realizado corretamente!</span></p>
+                            </div>
+
+                        </div>
+                    </div>                         
+                                        
+                </div>
+            </section>
+
+
+
+            <section class="tratamentos-e-profissionalizacao"></section>
+
+
+
+            <section id="cursos-e-terapias" class="cursos_e_terapias cursos-e-terapias-pg-a-sbbio">
+                <div class="container textos-laterais">
+                    <div class="quadro-esq">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 col-md-5">
+                                <h2>Quero fazer a terapia.</h2>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-7">
+                                <p>Quer agendar uma sessão para você, amigos ou familiares? A SBBio oferece atendimentos de acordo com a sua necessidade.</p>
+                                <a href="quero-fazer-a-terapia.asp">Saiba mais</a>
+                            </div>                                              
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- #include file="_depoimentos.asp" -->            
+
+            <!-- #include file="_footer.asp" -->
+
+        </main>
+        
+
+        <!-- css -->
+        <link href="https://fonts.googleapis.com/css?family=Maven+Pro:500,600,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/animate/animate-3.5.1.min.css">  
+
+        <link rel="stylesheet" type="text/css" href="assets/slick/slick.css">  
+
+        <link rel="stylesheet" href="css/custom-cursos.css">
+
+        <!-- javascript -->
+        <script src="assets/jquery/jquery-3.4.1.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+        <script src="assets/slick/slick.min.js" type="text/javascript" charset="utf-8"></script>
+
+
+        <script src="js/main.js"></script>   
+        
+        <script type="text/javascript">        
+      
+            $(".regular").slick({
+              arrows: false,
+              //mobileFirst: true,
+              dots: false,
+              infinite: true,
+              slidesToShow: 5,
+              slidesToScroll: 1,
+              responsive: [
+                  {
+                      breakpoint: 1800,
+                      settings: {
+                      slidesToShow: 4,
+                      slidesToScroll: 1
+                      }
+                  },
+                  {
+                      breakpoint: 992,
+                      settings: {
+                      slidesToShow: 3,
+                      slidesToScroll: 1
+                      }
+                  },
+                  {
+                      breakpoint: 762,
+                      settings: {
+                      slidesToShow: 2,
+                      slidesToScroll: 1
+                      }
+                  },
+                  {
+                      breakpoint: 360,
+                      settings: {
+                      slidesToShow: 1,
+                      slidesToScroll: 1
+                      }
+                  }
+      
+              ]
+            });
+      
+          $('.left').click(function(){
+            $('.slider').slick('slickPrev');
+          })
+      
+          $('.right').click(function(){
+            $('.slider').slick('slickNext');
+          })
+
+
+
+          var frm = $('#frmNovasTurmas');
+
+            frm.submit(function (e) {
+
+                e.preventDefault();
+
+                $.ajax({
+                    type: frm.attr('method'),
+                    url: frm.attr('action'),
+                    data: frm.serialize(),
+                    success: function (data) {
+                        //console.log('Submission was successful.');
+                        //console.log(data);
+                        $('#frmNovasTurmas input, #frmNovasTurmas button, #frmNovasTurmas .imgTit, #frmNovasTurmas p, #frmNovasTurmas textarea').css({'display':'none'});
+                        $('.popObrigado').css({'display':'block'});
+                    },
+                    error: function (data) {
+                        console.log('An error occurred.');
+                        console.log(data);
+                    },
+                });
+            });
+
+      </script>
+
+
+    </body>
+</html>

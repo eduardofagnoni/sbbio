@@ -1,0 +1,448 @@
+@charset "UTF-8";
+/* ===================================================================
+ * 
+ * Biomagnetismo v1.0 Main Stylesheet
+ * Custom class
+ * 
+ * Conteúdos:
+ * 
+ * # nome das páginas internas
+ * # a sociedade brasileira de biomagnetismo (página a_sbbio)
+ * # números (página a_sbbio)
+ * # manifesto (página a_sbbio)
+ * # tratamento e profissionalização (página a_sbbio)
+ * # cursos e terapias (página a_sbbio)
+
+ * # footer
+
+* =================================================================== */
+
+
+/* -----------------------------------------------------
+  Media Query Exemplos
+  -----------------------------------------------------
+@media only screen and (min-width: 320px) {}
+@media only screen and (min-width: 480px) {}
+@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 768px) {} //col-sm
+@media only screen and (min-width: 830px) {}
+@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 1382px) {}
+*/ 
+
+
+/* ------------------------------------------------------
+    Fonts
+---------------------------------------------------------
+
+font-family: 'Maven Pro', sans-serif;
+font-family: Georgia, serif;
+
+-------------------------------------------------------*/
+
+@import url("../font-awesome/css/all.min.css");
+
+
+
+/* ===================================================================
+ * # nome das páginas internas
+ *
+ * ------------------------------------------------------------------- */
+.nome-da-pagina {
+    height: 372px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4e4e99+22,2d71af+100 */
+    background: #4e4e99; /* Old browsers */
+    background: -moz-linear-gradient(top,  #4e4e99 22%, #2d71af 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #4e4e99 22%,#2d71af 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #4e4e99 22%,#2d71af 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4e4e99', endColorstr='#2d71af',GradientType=0 ); /* IE6-9 */
+    position: relative;
+}
+.nome-da-pagina h1 {
+    color: #fff;
+    text-align: center;
+    padding: 230px 0 0 0;
+    position: relative;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 51.73px;
+}
+
+
+/* ===================================================================
+ * # a sociedade brasileira de biomagnetismo
+ *
+ * ------------------------------------------------------------------- */
+@media only screen and (min-width: 320px) {
+    .sociedade-brasileira-de-biomagnetismo {
+        margin:60px auto;
+        background-color: #fff;
+    }
+    .sociedade-brasileira-de-biomagnetismo h2 {
+        font-family: 'Maven Pro', sans-serif;
+        font-size:26.45px;
+        text-transform: uppercase;
+        color:#4e4e99;
+        text-align: left;
+        padding:0 0 0 0;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .sociedade-brasileira-de-biomagnetismo {
+        margin:116px auto;
+        background-color: #fff;
+    }
+    .sociedade-brasileira-de-biomagnetismo h2 {
+        font-family: 'Maven Pro', sans-serif;
+        font-size:26.45px;
+        text-transform: uppercase;
+        color:#4e4e99;
+        text-align: right;
+        padding:0 40px 0 0;
+    }
+} /*col-sm*/
+
+.sociedade-brasileira-de-biomagnetismo p {
+    font-family: Georgia, serif;
+    font-size: 17px;
+    color:#313131;
+}
+
+
+/* ===================================================================
+ * # números
+ *
+ * ------------------------------------------------------------------- */
+.numeros-sbbio {
+    background-color: #efefef;    
+    padding:80px 0 30px 0;
+    display: block;
+}
+.numeros-sbbio p {
+    font-family: 'Maven Pro', sans-serif;
+    font-size:19px;
+    font-weight: bold;
+    color:#58589d;
+    position: relative;
+    padding: 0 0 30px 0;
+}
+.numeros-sbbio p span {
+    color:#00bed5;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+.numeros-sbbio p:before {
+    content:'';
+    width: 60px;
+    height: 3px;
+    background-color:#52509d;
+    position: absolute;
+    top:-20px;
+    left:0;
+}
+
+
+/* ===================================================================
+ * # manifesto
+ *
+ * ------------------------------------------------------------------- */
+.manifesto-sbbio {
+    margin:0;
+    padding:0;
+    background-color: #fff;    
+}
+@media only screen and (min-width: 320px) {
+    .manifesto-sbbio h2 {
+        font-family: 'Maven Pro', sans-serif;
+        font-size: 37.5px;
+        color:#4e4e99;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin: 60px 0 30px 0;
+        padding:0 40px 0 0;
+        position: relative;
+    }
+    .manifesto-sbbio img {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .manifesto-sbbio h2 {
+        font-family: 'Maven Pro', sans-serif;
+        font-size: 37.5px;
+        color:#4e4e99;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin: 176px 0 30px 0;
+        padding:0 40px 0 0;
+        position: relative;
+    }
+    .manifesto-sbbio img {
+        max-width: none;
+    }
+} /*col-sm*/
+
+.manifesto-sbbio h2:before {
+    content:'';
+    width: 60px;
+    height: 9px;
+    background-color:#52509d;
+    position: absolute;
+    top:-20px;
+    left:0;
+}
+.manifesto-sbbio p {
+    font-family: Georgia, serif;
+    font-size: 17px;
+    color:#313131;
+    line-height: 27px;
+    padding:0 40px 0 0;
+}
+
+
+/* ===================================================================
+ * # tratamento e profissionalização
+ *
+ * ------------------------------------------------------------------- */
+@media only screen and (min-width: 320px) {
+    .tratamentos-e-profissionalizacao {
+        background-color: #efefef;    
+        padding:60px 0 233px 0;
+        display: block;
+        position: relative;
+        z-index: 1;
+    }
+    .tratamentos-e-profissionalizacao h2 {
+        font-family: 'Maven Pro', sans-serif;
+        color:#4e4e99;
+        font-size: 28.45px;
+        text-transform: uppercase;
+        text-align: left;
+        padding:0 0 0 0;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .tratamentos-e-profissionalizacao {
+        background-color: #efefef;    
+        padding:160px 0 233px 0;
+        display: block;
+        position: relative;
+        z-index: 1;
+    }
+    .tratamentos-e-profissionalizacao h2 {
+        font-family: 'Maven Pro', sans-serif;
+        color:#4e4e99;
+        font-size: 28.45px;
+        text-transform: uppercase;
+        text-align: right;
+        padding:0 40px 0 0;
+    }
+} /*col-sm*/
+
+.tratamentos-e-profissionalizacao p {
+    font-family: Georgia, serif;
+    font-size: 17px;
+    color:#313131;
+}
+
+
+/* ===================================================================
+ * # cursos e terapias
+ *
+ * ------------------------------------------------------------------- */
+
+ @media only screen and (min-width: 320px) {
+    .cursos_e_terapias .quadro-esq {
+        background-color:#52509d;
+        margin-right:0;
+        padding:100px 60px;
+        text-align:left;
+    }
+    .cursos_e_terapias .quadro-dir {
+        background-color:#08acd8;
+        margin-left:0;
+        padding:100px 60px;
+        text-align:left;
+    }
+}
+@media only screen and (min-width: 480px) {}
+@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 768px) {
+    .cursos_e_terapias .quadro-esq {
+        background-color:#52509d;
+        margin-right: 5px;
+        padding:100px 60px;
+        text-align:right;
+    }
+    .cursos_e_terapias .quadro-dir {
+        background-color:#08acd8;
+        margin-left:5px;
+        padding:100px 60px;
+        text-align:left;
+    }
+} /*col-sm*/
+@media only screen and (min-width: 830px) {}
+@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 1382px) {}
+
+.cursos_e_terapias {
+    margin: 120px auto;
+    position: relative;
+    z-index: 2;
+}
+
+.cursos_e_terapias .quadro-esq h2 {
+    font-family: 'Maven Pro', sans-serif;
+    color:#00a0cb;
+    font-size: 55px;
+    line-height: 50px;
+}
+.cursos_e_terapias .quadro-esq p {
+    font-family: Georgia, serif;
+    font-size:17px;
+    color:#fff;
+    margin-bottom: 100px;
+}
+.cursos_e_terapias .quadro-esq:before {
+    content:'';
+    width:60px;
+    height: 9px;
+    background-color:#00a0cb;
+    display:block;
+    position:absolute;
+    top:-3px;
+    right:80px;
+    z-index: 2;
+}
+.cursos_e_terapias .quadro-esq a {    
+    border: solid 2px #00aaeb;    
+    height:36px;
+    width: 350px;
+    border-radius: 30px;
+    padding:7px 60px 9px 27px; 
+    margin-top:40px;
+    font-size:13px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+.cursos_e_terapias .quadro-esq a:after {
+    content: '>';
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    width:37px;
+    height: 36px;
+    background-color:#2b76b3;
+    color: #fff;
+    border: solid 2px #00aaeb;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding:1px 10px 0 10px;
+    position: absolute;
+    top:-2px;
+    right: -2px;
+}
+
+.cursos_e_terapias .quadro-dir h2 {
+    font-family: 'Maven Pro', sans-serif;
+    color:#52509d;
+    font-size: 55px;
+    line-height: 50px;
+}
+.cursos_e_terapias .quadro-dir p {
+    font-family: Georgia, serif;
+    font-size:17px;
+    color:#fff;
+    margin-bottom: 100px;
+}
+.cursos_e_terapias .quadro-dir:before {
+    content:'';
+    width:60px;
+    height: 9px;
+    background-color:#52509d;
+    display:block;
+    position:absolute;
+    top:-3px;
+    left:80px;
+    z-index: 2;
+}
+.cursos_e_terapias .quadro-dir a {    
+    border: solid 2px #524fa1;    
+    height:36px;
+    width: 350px;
+    border-radius: 30px;
+    padding:7px 60px 9px 27px; 
+    margin-top:40px;
+    font-size:13px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+.cursos_e_terapias .quadro-dir a:after {
+    content: '>';
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    width:37px;
+    height: 36px;
+    background-color:#4165ab;
+    color: #fff;
+    border: solid 2px #524fa1;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding:1px 10px 0 10px;
+    position: absolute;
+    top:-2px;
+    right: -2px;
+}
+.cursos-e-terapias-pg-a-sbbio {
+    margin: -150px 0 260px 0;
+    position: relative;
+    z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

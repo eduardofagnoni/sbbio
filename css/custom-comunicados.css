@@ -1,0 +1,120 @@
+@charset "UTF-8";
+/* ===================================================================
+ * 
+ * Biomagnetismo v1.0 Main Stylesheet
+ * Custom class
+ * 
+ * Conteúdos:
+ * 
+ * # comunicado
+
+* =================================================================== */
+
+
+/* -----------------------------------------------------
+  Media Query Exemplos
+  -----------------------------------------------------
+@media only screen and (min-width: 320px) {}
+@media only screen and (min-width: 480px) {}
+@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 768px) {} //col-sm
+@media only screen and (min-width: 830px) {}
+@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 1382px) {}
+*/ 
+
+
+/* ------------------------------------------------------
+    Fonts
+---------------------------------------------------------
+
+font-family: 'Maven Pro', sans-serif;
+font-family: Georgia, serif;
+
+-------------------------------------------------------*/
+
+@import url("../font-awesome/css/all.min.css");
+/* ===================================================================
+ * # nome das páginas internas
+ *
+ * ------------------------------------------------------------------- */
+.nome-da-pagina {
+    height: 372px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4e4e99+22,2d71af+100 */
+    background: #4e4e99; /* Old browsers */
+    background: -moz-linear-gradient(top,  #4e4e99 22%, #2d71af 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #4e4e99 22%,#2d71af 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #4e4e99 22%,#2d71af 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4e4e99', endColorstr='#2d71af',GradientType=0 ); /* IE6-9 */
+    position: relative;
+}
+@media only screen and (min-width: 320px) {
+    .nome-da-pagina h1 {
+        color: #fff;
+        text-align: center;
+        padding: 230px 0 0 0;
+        position: relative;
+        font-family: 'Maven Pro', sans-serif;
+        font-size: 40px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .nome-da-pagina h1 {
+        color: #fff;
+        text-align: center;
+        padding: 230px 0 0 0;
+        position: relative;
+        font-family: 'Maven Pro', sans-serif;
+        font-size: 51.73px;
+    }
+}
+
+
+
+/* ===================================================================
+ * # comunicado
+ *
+ * ------------------------------------------------------------------- */
+@media only screen and (min-width: 320px) {
+    .comunicado {
+        margin:60px 0 250px 0;
+        background-color: #fff;
+    }
+    .comunicado h2 {
+        font-family: 'Maven Pro', sans-serif;
+        font-size:30px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color:#4e4e99;
+        text-align: left;
+        padding:0 0 20px 0;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .comunicado {
+        margin:116px 0 250px 0;
+        background-color: #fff;
+    }
+    .comunicado h2 {
+        font-family: 'Maven Pro', sans-serif;
+        font-size:37.45px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color:#4e4e99;
+        text-align: left;
+        padding:0 0 40px 0;
+    }
+} /*col-sm*/
+
+.comunicado small {
+    color:#4e4e99;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 14px;
+    display: block;
+}
+
+.comunicado p {
+    font-family: Georgia, serif;
+    font-size: 17px;
+    color:#313131;
+}

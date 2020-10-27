@@ -1,0 +1,1166 @@
+@charset "UTF-8";
+/* ===================================================================
+ * 
+ * Biomagnetismo v1.0 Main Stylesheet
+ * Custom class
+ * 
+ * Conteúdos:
+ *
+ * # banner
+ * # o que é biomagnetismo
+ * # video
+ * # sbbio
+ * # o que tratamos
+ * # cursos e terapias
+ * # depoimentos home page
+
+* =================================================================== */
+
+
+/* -----------------------------------------------------
+  Media Query Exemplos
+  -----------------------------------------------------
+@media only screen and (min-width: 320px) {}
+@media only screen and (min-width: 480px) {}
+@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 768px) {} //col-sm
+@media only screen and (min-width: 830px) {}
+@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 1382px) {}
+*/ 
+
+
+/* ------------------------------------------------------
+    Fonts
+---------------------------------------------------------
+
+font-family: 'Maven Pro', sans-serif;
+font-family: Georgia, serif;
+
+-------------------------------------------------------*/
+
+@import url("../font-awesome/css/all.min.css");
+
+
+
+/* ===================================================================
+ * # banner
+ *
+ * ------------------------------------------------------------------- */
+
+#banner .img-1 {
+    background: url(../images/banner-home/1.jpg); 
+}
+#banner .img-2 {
+    background: url(../images/banner-home/2.jpg); 
+}
+#banner .img-3 {
+    background: url(../images/banner-home/3.jpg); 
+}
+#banner .img-4 {
+    background: url(../images/banner-home/4a.jpg); 
+}
+
+@media only screen and (min-width: 320px) {
+    #banner {
+        width: 100%;
+        height: 600px;
+        display: block;
+        position: relative;
+        z-index: 1;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+    #banner .banner-item {
+        width: 100%;
+        height: 580px;  
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+    #banner .alinhamento-central {
+        margin: auto;
+        height: auto;
+        top: 34%;        
+        padding: 0 40px;
+        position: relative;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+    #banner .banner-item h2 {
+        font-family: 'Maven Pro', sans-serif;
+        font-weight: bold;
+        color:#fff;
+        font-size:25px;
+        line-height: 28px;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+    #banner .banner-item h2 br {display: none;}
+    #banner .banner-item p {
+        font-family: Georgia, serif;
+        color: #fff;
+        font-size: 17px;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+    #banner .banner-item a {
+        border: solid 2px #fff;
+        width:280px;
+        height:47px;
+        border-radius: 30px;
+        padding:8px 50px 8px 10px;
+        font-size:12px;
+        font-family: 'Maven Pro', sans-serif;
+        font-weight: bold;
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+        position: relative;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        text-decoration: none;
+    }
+    #banner .banner-item a:after {
+        content: '>';
+        font-family: 'Maven Pro', sans-serif;
+        font-weight: bold;
+        font-size: 18px;
+        width:37px;
+        height: 36px;
+        background-color:#b9b8cd;
+        color: #fff;
+        border: solid 2px #fff;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        padding:1px 10px 0 10px;
+        position: absolute;
+        top:-2px;
+        right: -2px;
+    }
+    #banner .img-1 {        
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: top 90% right 30%;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+    #banner .img-2 {
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: top 90% right 30%;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+    #banner .img-3 {
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: top 90% right 30%;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+}
+@media only screen and (min-width: 600px) {
+    
+    #banner .alinhamento-central {        
+        top: 40%;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+    #banner .banner-item h2 {        
+        font-size:30px;
+        line-height: 38px;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }    
+    #banner .banner-item a {        
+        padding:8px 80px 8px 27px;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+
+    #banner .img-1 {
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center;  
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;      
+    }
+    #banner .img-2 {
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+    #banner .img-3 {
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+}
+@media only screen and (min-width: 992px) {
+    #banner {
+        width: 100%;
+        height: 800px;
+        display: block;
+        position: relative;
+        z-index: 1;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+    #banner .banner-item {
+        width: 100%;
+        height: 780px;  
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out; 
+    }
+    #banner .banner-item h2 {
+        font-family: 'Maven Pro', sans-serif;
+        font-weight: bold;
+        color:#fff;
+        font-size:40px;
+        line-height: 50px;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+    #banner .banner-item h2 br {display: block;}
+    #banner .banner-item p {
+        font-family: Georgia, serif;
+        color: #fff;
+        font-size: 17px;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+    #banner .banner-item a {
+        border: solid 2px #fff;
+        width:280px;
+        height:47px;
+        border-radius: 30px;
+        padding:8px 80px 8px 27px;
+        font-size:13px;
+        font-family: 'Maven Pro', sans-serif;
+        font-weight: bold;
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+        position: relative;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+    #banner .banner-item a:after {
+        content: '>';
+        font-family: 'Maven Pro', sans-serif;
+        font-weight: bold;
+        font-size: 18px;
+        width:37px;
+        height: 36px;
+        background-color:#b9b8cd;
+        color: #fff;
+        border: solid 2px #fff;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        padding:1px 10px 0 10px;
+        position: absolute;
+        top:-2px;
+        right: -2px;
+    }
+
+    #banner .img-1 {
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+    #banner .img-2 {
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+    #banner .img-3 {
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+}
+.carousel-indicators {
+    bottom: 3%;
+    -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;   
+}
+.carousel-indicators li {
+    width: 15px!important;
+    height: 15px!important;
+    display: block!important;
+    border-radius: 50%;
+    -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+}
+
+/* ===================================================================
+ * # o que é biomagnetismo
+ *
+ * ------------------------------------------------------------------- */
+.features-biomagnetismo {
+    margin:60px 0 80px 0;
+}
+.features-biomagnetismo h2 {
+    text-align: center;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 47.84px;
+    color:#4e4e99;
+    margin:0 0 30px 0;
+}
+.features-biomagnetismo p {
+    font-family: Georgia, serif;
+    font-size:17px;
+    color:#313131;
+}
+.features-biomagnetismo p {
+    border-top:solid 3px #e4e4ff;
+    margin-top: 20px;
+    padding-top: 20px;
+    position: relative;
+}
+.features-biomagnetismo p:before {
+    content:'';
+    width:60px;
+    height: 3px;
+    background-color:#52509d;
+    display:block;
+    position:absolute;
+    top:-3px;
+    left:40px;
+}
+
+.features-biomagnetismo a {
+    border: solid 2px #4e4e99;    
+    height:36px;
+    border-radius: 30px;
+    padding:7px 60px 9px 27px; 
+    margin:0 auto;   
+    font-size:13px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    color: #4e4e99;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+.features-biomagnetismo a:after {
+    content: '>';
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    width:37px;
+    height: 36px;
+    background-color:#b9b8cd;
+    color: #fff;
+    border: solid 2px #4e4e99;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding:1px 10px 0 10px;
+    position: absolute;
+    top:-2px;
+    right: -2px;
+}
+
+@media only screen and (min-width: 320px) {
+    .bt-acima-768 {display: none;}
+    .bt-abaixo-768 {display: block;}
+    .features-biomagnetismo a {
+        width: 200px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .bt-acima-768 {display: block;}
+    .bt-abaixo-768 {display: none;}
+    .features-biomagnetismo a {
+        width: 340px;
+    }
+} 
+
+
+
+
+
+
+/* ===================================================================
+ * # video
+ *
+ * ------------------------------------------------------------------- */
+.video-bio {
+    background-color: #dddddd;
+}
+
+@media only screen and (min-width: 320px) {  
+    
+    .video-bio img {
+        max-width: 100%;
+    }
+    
+    .video-bio .play {    
+        width: 82px;
+        height: 82px;
+        background-color: #4e4e99;
+        display: block;
+        position: absolute;
+        bottom:calc(100% - (41px));
+        left:calc(50% - (41px));
+        z-index: 10;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        cursor: pointer;
+        -webkit-transition: 0.2s ease-in-out;
+        -moz-transition: 0.2s ease-in-out;
+        -o-transition: 0.2s ease-in-out;
+        transition: 0.2s ease-in-out;
+    }
+    .video-bio .play i.fa {
+        font-size: 30px;
+        color: #08acd8;
+        position: absolute;
+        top:27px;
+        left:31px;
+        -webkit-transition: 0.2s ease-in-out;
+        -moz-transition: 0.2s ease-in-out;
+        -o-transition: 0.2s ease-in-out;
+        transition: 0.2s ease-in-out;
+    }
+    .video-bio .play:hover {
+        background-color: #cf8262;
+        -webkit-transition: 0.2s ease-in-out;
+        -moz-transition: 0.2s ease-in-out;
+        -o-transition: 0.2s ease-in-out;
+        transition: 0.2s ease-in-out;
+    }
+    .video-bio .play:hover > i.fa {
+        color:#004d70;
+        -webkit-transition: 0.2s ease-in-out;
+        -moz-transition: 0.2s ease-in-out;
+        -o-transition: 0.2s ease-in-out;
+        transition: 0.2s ease-in-out;
+    }
+
+
+    .conteudo {
+        height: 100%;
+        padding-top:60px;
+        padding-bottom: 60px;        
+        margin-top: -10px;
+        text-align: center;
+        position: relative;
+        
+    }
+    .conteudo p {
+         font-size: 30px;
+         color:#004d70;         
+         font-weight: 300;
+         line-height: 35px;
+         font-family: 'Maven Pro', sans-serif;
+    }
+}
+@media only screen and (min-width: 480px) {}
+@media only screen and (min-width: 600px) {}
+
+@media only screen and (min-width: 768px) {
+
+    .video-bio img {
+        max-width: none;
+    }
+    
+    .video-bio .play {    
+        width: 82px;
+        height: 82px;
+        display: block;
+        position: absolute;
+        top:calc(50% - (41px));
+        left: -28px;
+        z-index: 1;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        cursor: pointer;
+        -webkit-transition: 0.2s ease-in-out;
+        -moz-transition: 0.2s ease-in-out;
+        -o-transition: 0.2s ease-in-out;
+        transition: 0.2s ease-in-out;
+    }
+    .video-bio .play i.fa {
+        font-size: 30px;
+        position: absolute;
+        top:27px;
+        left:31px;
+        -webkit-transition: 0.2s ease-in-out;
+        -moz-transition: 0.2s ease-in-out;
+        -o-transition: 0.2s ease-in-out;
+        transition: 0.2s ease-in-out;
+    }
+    .video-bio .play:hover {
+        background-color: #cf8262;
+        -webkit-transition: 0.2s ease-in-out;
+        -moz-transition: 0.2s ease-in-out;
+        -o-transition: 0.2s ease-in-out;
+        transition: 0.2s ease-in-out;
+    }
+    .video-bio .play:hover > i.fa {
+        color:#004d70;
+        -webkit-transition: 0.2s ease-in-out;
+        -moz-transition: 0.2s ease-in-out;
+        -o-transition: 0.2s ease-in-out;
+        transition: 0.2s ease-in-out;
+    }
+
+
+    .conteudo {
+        height: calc(100% - 9px);
+        padding-top:25%;
+        padding-bottom: 0;
+        padding-left: 60px;
+        margin-top:0;
+        text-align: left;
+    }
+    .conteudo p {
+         font-size: 30px;
+         color:#004d70;
+         font-weight: 300;
+         line-height: 35px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .conteudo {
+        height: calc(100% - 9px);
+        padding-top:25%;
+        padding-left: 60px;
+    }
+    .conteudo p {
+         font-size: 40px;
+         color:#004d70;
+         font-weight: 300;
+         line-height: 45px;
+    }
+}
+@media only screen and (min-width: 1080px) {
+    .conteudo {
+        height: calc(100% - 9px);
+        padding-top:25%;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .conteudo p {
+         font-size: 50px;
+         color:#004d70;
+         font-weight: 300;
+         line-height: 55px;
+    }
+}
+
+
+/* ===================================================================
+ * # sbbio
+ *
+ * ------------------------------------------------------------------- */
+@media only screen and (min-width: 320px) {
+    .sbbio .row {
+        background-color:#9adef0;
+        position: relative;
+        top: -20px;
+        padding:115px 10px 115px 10px;    
+        /*height: 518px;*/
+    }
+    .sbbio .row p.txt-lateral {
+        font-family: 'Maven Pro', sans-serif;
+        font-size:25px;
+        color:#52509d;
+        font-weight: 600;
+        /*padding-right: 30px;*/
+        margin-bottom: 20px;
+        padding:0;
+        line-height: normal;
+    }    
+    .sbbio .row .quadro-destaque {
+        background-color:#08acd8;
+        position: relative;
+        top:-135px;
+        padding:70px 20px;
+        z-index:1;
+    }
+}
+@media only screen and (min-width: 480px) {
+    .sbbio .row {
+        background-color:#9adef0;
+        position: relative;
+        top: -20px;
+        padding:115px 20px 115px 10px;    
+        /*height: 518px;*/
+    }
+    .sbbio .row p.txt-lateral {
+        font-family: 'Maven Pro', sans-serif;
+        font-size:25px;
+        color:#52509d;
+        font-weight: 600;
+        /*padding-right: 30px;*/
+        margin-bottom: 20px;
+        padding:0;
+    }
+    /*.sbbio .row p.txt-lateral:first-child {
+        margin-bottom: 60px;
+    }*/
+    .sbbio .row .quadro-destaque {
+        background-color:#08acd8;
+        position: relative;
+        top:-135px;
+        padding:60px 60px;
+        z-index:1;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .sbbio .row {
+        background-color:#9adef0;
+        position: relative;
+        top: -20px;
+        padding:115px 20px 115px 10px;    
+        height: 548px;
+    }
+    .sbbio .row p.txt-lateral {
+        font-family: 'Maven Pro', sans-serif;
+        font-size:25px;
+        color:#52509d;
+        font-weight: 600;
+        padding-right: 30px;
+    }
+    .sbbio .row p.txt-lateral:first-child {
+        margin-bottom: 60px;
+    }
+}
+
+.sbbio .row .quadro-destaque:before {
+    content:'';
+    width:60px;
+    height: 9px;
+    background-color:#52509d;
+    display:block;
+    position:absolute;
+    top:-3px;
+    left:60px;
+    z-index: 2;
+}
+.sbbio .row .quadro-destaque h2 {
+    font-family: 'Maven Pro', sans-serif;
+    color:#fff;
+    font-size:34px;
+    margin:0 0 10px 0;
+}
+.sbbio .row .quadro-destaque p {
+    font-family: Georgia, serif;
+    color:#fff;
+    font-size:17px;
+}
+.sbbio .row .quadro-destaque a {
+    border: solid 2px #ffffff;    
+    height:36px;
+    border-radius: 30px;
+    padding:7px 60px 9px 27px; 
+    margin-top:20px;
+    display: block;  
+    font-size:13px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+.sbbio .row .quadro-destaque a:after {
+    content: '>';
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    width:37px;
+    height: 36px;
+    background-color:#3ebee1;
+    color: #fff;
+    border: solid 2px #ffffff;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding:1px 10px 0 10px;
+    position: absolute;
+    top:-2px;
+    right: -2px;
+}
+
+
+/* ===================================================================
+ * # o que tratamos
+ *
+ * ------------------------------------------------------------------- */
+
+@media only screen and (min-width: 320px) {
+    .o-que-tratamos p {
+        font-family: Georgia, serif;
+        font-size:17px;
+        color:#313131;
+        margin-bottom: 20px;
+    }
+    .o-que-tratamos a.bt {    
+        border: solid 2px #00a0cb;    
+        height:36px;
+        width: 250px;
+        display: block;
+        margin:0 auto;
+        border-radius: 30px;
+        padding:7px 60px 9px 27px; 
+        /*margin-top:40px;*/
+        font-size:13px;
+        font-family: 'Maven Pro', sans-serif;
+        font-weight: bold;
+        color: #00a0cb;
+        text-align: center;
+        text-transform: uppercase;
+        position: relative;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        text-decoration: none;
+    }
+    .o-que-tratamos a.bt:after {
+        content: '>';
+        font-family: 'Maven Pro', sans-serif;
+        font-weight: bold;
+        font-size: 18px;
+        width:37px;
+        height: 36px;
+        background-color:#7dc9de;
+        color: #fff;
+        border: solid 2px #00a0cb;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        padding:1px 10px 0 10px;
+        position: absolute;
+        top:-2px;
+        right: -2px;
+    }
+    .o-que-tratamos ul {
+        margin:0;
+        padding:0;
+        list-style:none;
+        text-align: center;
+    }
+    .o-que-tratamos ul li {
+        margin:0;
+        padding:0;
+        font-family: Georgia, serif;
+        font-size:17px;
+        color:#313131;    
+    }
+    .o-que-tratamos .link-final-lista {
+        margin-top:27px;
+        display:block;
+        color:#08acd8;
+        font-family: Georgia, serif;
+        text-decoration:none;
+        text-align: center;
+    }
+    .o-que-tratamos p {
+        font-family: Georgia, serif;
+        font-size:17px;
+        color:#313131;
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .o-que-tratamos p {
+        font-family: Georgia, serif;
+        font-size:17px;
+        color:#313131;
+        margin-bottom: 150px;
+    }
+    .o-que-tratamos a.bt {    
+        border: solid 2px #00a0cb;    
+        height:36px;
+        width: 200px;
+        display: block;
+        border-radius: 30px;
+        padding:7px 60px 9px 27px; 
+        margin:30px 0 0 0;
+        font-size:13px;
+        font-family: 'Maven Pro', sans-serif;
+        font-weight: bold;
+        color: #00a0cb;
+        text-align: center;
+        text-transform: uppercase;
+        position: relative;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        text-decoration: none;
+    }
+    .o-que-tratamos a.bt:after {
+        content: '>';
+        font-family: 'Maven Pro', sans-serif;
+        font-weight: bold;
+        font-size: 18px;
+        width:37px;
+        height: 36px;
+        background-color:#7dc9de;
+        color: #fff;
+        border: solid 2px #00a0cb;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        padding:1px 10px 0 10px;
+        position: absolute;
+        top:-2px;
+        right: -2px;
+    }
+    .o-que-tratamos ul {
+        margin:0;
+        padding:0;
+        list-style:none;
+        text-align: left;
+    }
+    .o-que-tratamos ul li {
+        margin:0;
+        padding:0;
+        font-family: Georgia, serif;
+        font-size:17px;
+        color:#313131;    
+    }
+    .o-que-tratamos .link-final-lista {
+        margin-top:27px;
+        display:block;
+        color:#08acd8;
+        font-family: Georgia, serif;
+        text-decoration:none;
+        text-align: left;
+    }
+    .o-que-tratamos p {
+        font-family: Georgia, serif;
+        font-size:17px;
+        color:#313131;
+        margin-bottom: 150px;
+    }
+} /*col-sm*/
+
+.o-que-tratamos {
+    margin: 120px auto;
+    display: block;
+}
+.o-que-tratamos h2 {
+    font-family: 'Maven Pro', sans-serif;
+    color:#00a2cd;
+    font-size:30px;
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+/* ===================================================================
+ * # cursos e terapias
+ *
+ * ------------------------------------------------------------------- */
+
+@media only screen and (min-width: 320px) {    
+    .cursos_e_terapias .quadro-esq {
+        background-color:#52509d;
+        margin-right:0;
+        padding:100px 60px;
+        text-align:left;
+    }
+    .cursos_e_terapias .quadro-dir {
+        background-color:#08acd8;
+        margin-left:0;
+        padding:100px 60px;
+        text-align:left;
+    }
+}
+@media only screen and (min-width: 480px) {}
+@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 768px) {
+    .cursos_e_terapias .quadro-esq {
+        background-color:#52509d;
+        margin-right: 5px;
+        padding:100px 60px;
+        text-align:right;
+    }
+    .cursos_e_terapias .quadro-dir {
+        background-color:#08acd8;
+        margin-left:5px;
+        padding:100px 60px;
+        text-align:left;
+    }
+} /*col-sm*/
+@media only screen and (min-width: 830px) {}
+@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 1382px) {}
+
+.cursos_e_terapias {
+    margin: 120px auto;
+    position: relative;
+    z-index: 2;
+}
+
+.cursos_e_terapias .quadro-esq h2 {
+    font-family: 'Maven Pro', sans-serif;
+    color:#00a0cb;
+    font-size: 55px;
+    line-height: 50px;
+}
+.cursos_e_terapias .quadro-esq p {
+    font-family: Georgia, serif;
+    font-size:17px;
+    color:#fff;
+    margin-bottom: 100px;
+}
+.cursos_e_terapias .quadro-esq:before {
+    content:'';
+    width:60px;
+    height: 9px;
+    background-color:#00a0cb;
+    display:block;
+    position:absolute;
+    top:-3px;
+    right:80px;
+    z-index: 2;
+}
+.cursos_e_terapias .quadro-esq a {    
+    border: solid 2px #00aaeb;    
+    height:36px;
+    width: 350px;
+    border-radius: 30px;
+    padding:7px 60px 9px 27px; 
+    margin-top:40px;
+    font-size:13px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+.cursos_e_terapias .quadro-esq a:after {
+    content: '>';
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    width:37px;
+    height: 36px;
+    background-color:#2b76b3;
+    color: #fff;
+    border: solid 2px #00aaeb;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding:1px 10px 0 10px;
+    position: absolute;
+    top:-2px;
+    right: -2px;
+}
+
+.cursos_e_terapias .quadro-dir h2 {
+    font-family: 'Maven Pro', sans-serif;
+    color:#52509d;
+    font-size: 55px;
+    line-height: 50px;
+}
+.cursos_e_terapias .quadro-dir p {
+    font-family: Georgia, serif;
+    font-size:17px;
+    color:#fff;
+    margin-bottom: 100px;
+}
+.cursos_e_terapias .quadro-dir:before {
+    content:'';
+    width:60px;
+    height: 9px;
+    background-color:#52509d;
+    display:block;
+    position:absolute;
+    top:-3px;
+    left:80px;
+    z-index: 2;
+}
+.cursos_e_terapias .quadro-dir a {    
+    border: solid 2px #524fa1;    
+    height:36px;
+    width: 350px;
+    border-radius: 30px;
+    padding:7px 60px 9px 27px; 
+    margin-top:40px;
+    font-size:13px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+.cursos_e_terapias .quadro-dir a:after {
+    content: '>';
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    width:37px;
+    height: 36px;
+    background-color:#4165ab;
+    color: #fff;
+    border: solid 2px #524fa1;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding:1px 10px 0 10px;
+    position: absolute;
+    top:-2px;
+    right: -2px;
+}
+
+
+/* ===================================================================
+ * # depoimentos home page
+ *
+ * ------------------------------------------------------------------- */
+.depoimentos-home {
+    background: url(../images/bg-depoimentos.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    top:-180px;
+    padding:172px 0 95px 0;
+}
+/*-----------------------------------------------------
+Section Geral Textos Laterais
+-----------------------------------------------------*/
+.textos-laterais h2 {
+    margin: 120px 0 20px 0;
+    padding: 0;
+    text-align: left;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 40px;
+    color: #52509d;
+}
+.textos-laterais p {
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-family: Georgia, serif;
+    font-size:17px;
+    color:#fff;
+}
+.textos-laterais p.align-left {
+    text-align: left;
+}
+.textos-laterais a {
+    color: inherit;
+    text-decoration: none;
+}
+.textos-laterais a:hover {
+    color: #00497a;
+}
+
+/*-----------------------------------------------------
+Section Home Produtos
+-----------------------------------------------------*/
+.conteiner-slider {
+    /*padding: 70px 0;*/
+    background: #08acd8;
+    overflow: hidden;
+}
+
+.conteiner-slider ul {
+    margin: 20px 0 20px 0;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+}
+  .conteiner-slider ul li {
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+    border: solid 1px #fff;
+    cursor: pointer;
+    padding: 5px 0 0 0;
+    font-size: 1.3em;
+    color: #fff;
+    text-align: center;
+}
+
+.conteiner-slider ul.itens-do-slider {
+    margin: 0 0 0 0;
+    padding: 0;
+    height:500px;
+    list-style: none;
+    text-align: right;
+    background-color: #9adef0;
+}
+.conteiner-slider ul.itens-do-slider li {
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    border: none;
+    cursor: pointer;
+    padding: 0 0 0 0;
+    font-size: 1.3em;
+    color: #343434;
+    text-align: left;
+}
+.conteiner-slider .contenido-slider {
+    position: relative;    
+}
+.conteiner-slider .conteudo {
+    width: 200%;
+    position: relative;
+}
+
+.slider .item {
+    position: relative;
+    border: none;
+    cursor: pointer;
+} 
+.slider .item .item-content {
+    display: block;
+    padding: 90px 10px 0 60px;
+    width: 100%;
+}  
+.slider .item .item-content p {
+    font-family: Georgia, serif;
+    font-size: 17px;
+    line-height: 23px;
+    color: #313131;
+    text-align: left;
+}
+.slider .item .item-content span {
+    font-family: Georgia, serif;
+    color:#52509d;
+    font-size: 17px;
+    line-height: normal;
+    display: block;
+    margin-top: 20px;
+}
