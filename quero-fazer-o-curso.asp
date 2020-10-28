@@ -75,7 +75,7 @@
                     <div class="row">
                         <div class="col-12 col-md-12">
                             <h3><strong>Formação de Terapeutas: Biomagnetismo para a recuperação da saúde.</strong><br> Curso - introdução & Básico & Avançado .</h3>
-                            <p>56 horas – 7 dias.<br><br>
+                            <p>56 horas – 7 dias.<br>
                             Três cursos em um único, superintensivo, com parte teórica e prática entre alunos nos primeiros 4 dias do curso. Os outros 3 dias do curso são dedicados ao atendimento de pelo menos 4 pessoas por dia, totalizando pelo menos 12 pessoas atendidas por cada aluno, em duplas, durante o curso.<br><br>
                             As pessoas atendidas pagam uma taxa para serem tratadas pelos alunos. Os valores arrecadados com os atendimentos são doados para entidade assistencial definida pelos alunos. Não dá para acreditar, não é ?  <br><br>
                             Só vendo para crer. É por isso que muitos alunos formados na SBBio acabam se dedicando profissionalmente ao Biomagnetismo.</p>
