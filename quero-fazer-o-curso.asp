@@ -81,12 +81,30 @@
                             Só vendo para crer. É por isso que muitos alunos formados na SBBio acabam se dedicando profissionalmente ao Biomagnetismo.</p>
                         </div>
                         <div class="col-12 text-right">
-                            <button onclick="location.href='http://bit.ly/IntroducaoeBasicoeAvancado'"  class="btn-frm-novas-turmas" id="enviar-quero-fazer-o-curso">Enviar</button>
+                            <button onclick="window.open('http://bit.ly/IntroducaoeBasicoeAvancado', '_blank');"  class="btn-frm-novas-turmas" id="enviar-quero-fazer-o-curso">Enviar</button>
                         </div>
                     </div>
 
                     <div></div>
                 </div>
+            </section>
+
+            <section id="videoBio" class="video-bio">
+                <div class="container-fluid zera-margens">
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="conteudo">
+                                <p>Com o Biomagnetismo é possível tratar muitas doenças, físicas e psicomocionais.</p>                                
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <img src="images/bg-videos.jpg" alt="">
+                            <div class="play  js-video-button" data-video-id='owoH5SkUmG4' >                        
+                                <i class="fa fa-play" aria-hidden="true"></i>
+                            </div>                                    
+                        </div>
+                    </div>                              
+                </div>                
             </section>
 
 
@@ -130,6 +148,8 @@
         <script src="assets/jquery/jquery-3.4.1.min.js"></script>
         <script src="js/wow.min.js"></script>
         <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="css/custom-quero-fazer-o-curso.css">
 
         <script src="assets/slick/slick.min.js" type="text/javascript" charset="utf-8"></script>
 
