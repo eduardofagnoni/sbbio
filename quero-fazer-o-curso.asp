@@ -64,8 +64,7 @@
                 <div class="container">
                     <div class="row">                        
                         <div class="col-12">
-                            <p>Nosso objetivo não é simplesmente administrar cursos. É formar pessoas que consigam praticar o Biomagnetismo durante e após o curso.  É por isso que muitos alunos formados na SBBio acabam se dedicando ao Biomagnetismo, em tempo parcial ou integral.
-</p>
+                            <p>Nosso objetivo não é simplesmente administrar cursos. É formar pessoas que consigam praticar o Biomagnetismo durante e após o curso.  É por isso que muitos alunos formados na SBBio acabam se dedicando ao Biomagnetismo, em tempo parcial ou integral.</p>
                         </div>
                     </div>
                 </div>
@@ -74,15 +73,15 @@
             <section class="nossos-cursos">
                 <div class="container">                    
                     <div class="row">
-                        <div class="col-12 col-md-6">
-                            <h3><strong>Formação de Terapeutas: Biomagnetismo para a recuperação da saúde.</strong><br> Curso – Introdução ao Biomagnetismo.</h3>
-                            <p>8 horas.<br>
-                            Um intensivo com o objetivo de introduzir a teoria e prática do Biomagnetismo e despertar novos terapeutas para a prática do rastreio e tratamento com a utilização de ímãs.</p>
+                        <div class="col-12 col-md-12">
+                            <h3><strong>Formação de Terapeutas: Biomagnetismo para a recuperação da saúde.</strong><br> Curso - introdução & Básico & Avançado .</h3>
+                            <p>56 horas – 7 dias.<br><br>
+                            Três cursos em um único, superintensivo, com parte teórica e prática entre alunos nos primeiros 4 dias do curso. Os outros 3 dias do curso são dedicados ao atendimento de pelo menos 4 pessoas por dia, totalizando pelo menos 12 pessoas atendidas por cada aluno, em duplas, durante o curso.<br><br>
+                            As pessoas atendidas pagam uma taxa para serem tratadas pelos alunos. Os valores arrecadados com os atendimentos são doados para entidade assistencial definida pelos alunos. Não dá para acreditar, não é ?  <br><br>
+                            Só vendo para crer. É por isso que muitos alunos formados na SBBio acabam se dedicando profissionalmente ao Biomagnetismo.</p>
                         </div>
-                        <div class="col-12 col-md-6">
-                            <h3><strong>Formação de Terapeutas: Biomagnetismo para a recuperação da saúde.</strong><br> Curso Básico e Avançado 1.</h3>                            
-                            <p>48 horas.<br>
-                            Dois cursos em um único superintensivo, com aulas práticas e teóricas. Desenvolvido para capacitar novos estudantes na Prática do Biomagnetismo, instruindo-os sobre o uso dos ímãs e da Bioenergética. </p>
+                        <div class="col-12 text-right">
+                            <button onclick="location.href='http://bit.ly/IntroducaoeBasicoeAvancado'"  class="btn-frm-novas-turmas" id="enviar-quero-fazer-o-curso">Enviar</button>
                         </div>
                     </div>
 
