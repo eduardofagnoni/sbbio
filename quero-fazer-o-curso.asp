@@ -89,6 +89,21 @@
                 </div>
             </section>
 
+            <section class="sobre-novas-turmas">
+                <div class="container">                   
+                          
+                    <div class="row">
+                        <div class="col-10">
+                            <h2>Faça já sua inscrição</h2>
+                        </div>
+                        <div class="col-2 adjust-button text-right">
+                            <button class="btn-frm-novas-turmas" id="enviar-quero-fazer-o-curso">Saiba mais</button>
+                        </div>
+                    </div>                         
+                                        
+                </div>
+            </section>
+
             <section id="videoBio" class="video-bio">
                 <div class="container-fluid zera-margens">
                     <div class="row">
