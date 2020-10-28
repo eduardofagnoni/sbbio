@@ -64,7 +64,8 @@
                 <div class="container">
                     <div class="row">                        
                         <div class="col-12">
-                            <p>Devido ao surto do Covid-19 e às orientações da OMS, nossos cursos, workshops e demais atividades estão suspensos por tempo indeterminado. Fique atento às novidades e confira alguns cursos já realizados pela SBBio.</p>
+                            <p>Nosso objetivo não é simplesmente administrar cursos. É formar pessoas que consigam praticar o Biomagnetismo durante e após o curso.  É por isso que muitos alunos formados na SBBio acabam se dedicando ao Biomagnetismo, em tempo parcial ou integral.
+</p>
                         </div>
                     </div>
                 </div>
