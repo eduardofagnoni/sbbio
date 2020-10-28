@@ -89,40 +89,6 @@
                 </div>
             </section>
 
-            <section class="sobre-novas-turmas">
-                <div class="container">                   
-                          
-                    <div class="row">
-                        <div class="col-12">
-                            <h2>Mantenha-se informado sobre novas turmas.</h2>
-                            <p>A SBBio está sempre realizando novos cursos, workshops e mutirões. Cadastre-se para ficar por dentro de todos eles.</p>
-                            <form action="__cadastro_newsletter.asp" method="post" id="frmNovasTurmas">
-                                <div class="row">
-                                    <div class="col-12 col-md-6">
-                                        <input type="text" id="txtNome" name="txtNome" placeholder="Nome:*" required />
-                                    </div>
-                                    <div class="col-12 col-md-6">
-                                        <input type="email" id="txtEmail" name="txtEmail" placeholder="E-mail:*" required />
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 text-right">
-                                        <button type="submit" class="btn-frm-novas-turmas" id="enviar-quero-fazer-o-curso">Enviar</button>
-                                    </div>
-                                </div>
-                            </form>
-
-                            <div class="popObrigado">
-                                <p class="text-center"><span>Seu cadastro foi realizado corretamente!</span></p>
-                            </div>
-
-                        </div>
-                    </div>                         
-                                        
-                </div>
-            </section>
-
-
 
             <section class="tratamentos-e-profissionalizacao"></section>
 
