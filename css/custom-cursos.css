@@ -70,6 +70,9 @@ font-family: Georgia, serif;
     transition: all 0.3s ease-in-out;
     text-decoration: none;
 }
+button.btn-frm-novas-turmas.large {
+    width:340px;
+}
 button.btn-frm-novas-turmas:after {
     content: '>';
     font-family: 'Maven Pro', sans-serif;
@@ -655,3 +658,192 @@ Section Home Produtos
     display: block;
     margin-top: 20px;
 }  
+
+/* ===================================================================
+ * # video
+ *
+ * ------------------------------------------------------------------- */
+ .video-bio {
+    background-color: #dddddd;
+}
+
+@media only screen and (min-width: 320px) {  
+    
+    .video-bio img {
+        max-width: 100%;
+    }
+    
+    .video-bio .play {    
+        width: 82px;
+        height: 82px;
+        background-color: #4e4e99;
+        display: block;
+        position: absolute;
+        bottom:calc(100% - (41px));
+        left:calc(50% - (41px));
+        z-index: 10;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        cursor: pointer;
+        -webkit-transition: 0.2s ease-in-out;
+        -moz-transition: 0.2s ease-in-out;
+        -o-transition: 0.2s ease-in-out;
+        transition: 0.2s ease-in-out;
+    }
+    .video-bio .play i.fa {
+        font-size: 30px;
+        color: #08acd8;
+        position: absolute;
+        top:27px;
+        left:31px;
+        -webkit-transition: 0.2s ease-in-out;
+        -moz-transition: 0.2s ease-in-out;
+        -o-transition: 0.2s ease-in-out;
+        transition: 0.2s ease-in-out;
+    }
+    .video-bio .play:hover {
+        background-color: #cf8262;
+        -webkit-transition: 0.2s ease-in-out;
+        -moz-transition: 0.2s ease-in-out;
+        -o-transition: 0.2s ease-in-out;
+        transition: 0.2s ease-in-out;
+    }
+    .video-bio .play:hover > i.fa {
+        color:#004d70;
+        -webkit-transition: 0.2s ease-in-out;
+        -moz-transition: 0.2s ease-in-out;
+        -o-transition: 0.2s ease-in-out;
+        transition: 0.2s ease-in-out;
+    }
+
+
+    .conteudo {
+        height: 100%;
+        padding-top:60px;
+        padding-bottom: 60px;        
+        margin-top: -10px;
+        text-align: center;
+        position: relative;
+        
+    }
+    .conteudo p {
+         font-size: 30px;
+         color:#004d70;         
+         font-weight: 300;
+         line-height: 35px;
+         font-family: 'Maven Pro', sans-serif;
+    }
+}
+@media only screen and (min-width: 480px) {}
+@media only screen and (min-width: 600px) {}
+
+@media only screen and (min-width: 768px) {
+
+    .video-bio img {
+        max-width: none;
+    }
+    
+    .video-bio .play {    
+        width: 82px;
+        height: 82px;
+        display: block;
+        position: absolute;
+        top:calc(50% - (41px));
+        left: -28px;
+        z-index: 1;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        cursor: pointer;
+        -webkit-transition: 0.2s ease-in-out;
+        -moz-transition: 0.2s ease-in-out;
+        -o-transition: 0.2s ease-in-out;
+        transition: 0.2s ease-in-out;
+    }
+    .video-bio .play i.fa {
+        font-size: 30px;
+        position: absolute;
+        top:27px;
+        left:31px;
+        -webkit-transition: 0.2s ease-in-out;
+        -moz-transition: 0.2s ease-in-out;
+        -o-transition: 0.2s ease-in-out;
+        transition: 0.2s ease-in-out;
+    }
+    .video-bio .play:hover {
+        background-color: #cf8262;
+        -webkit-transition: 0.2s ease-in-out;
+        -moz-transition: 0.2s ease-in-out;
+        -o-transition: 0.2s ease-in-out;
+        transition: 0.2s ease-in-out;
+    }
+    .video-bio .play:hover > i.fa {
+        color:#004d70;
+        -webkit-transition: 0.2s ease-in-out;
+        -moz-transition: 0.2s ease-in-out;
+        -o-transition: 0.2s ease-in-out;
+        transition: 0.2s ease-in-out;
+    }
+
+
+    .conteudo {
+        height: calc(100% - 9px);
+        padding-top:25%;
+        padding-bottom: 0;
+        padding-left: 60px;
+        margin-top:0;
+        text-align: left;
+    }
+    .conteudo p {
+         font-size: 30px;
+         color:#004d70;
+         font-weight: 300;
+         line-height: 35px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .conteudo {
+        height: calc(100% - 9px);
+        padding-top:25%;
+        padding-left: 60px;
+    }
+    .conteudo p {
+         font-size: 40px;
+         color:#004d70;
+         font-weight: 300;
+         line-height: 45px;
+    }
+}
+@media only screen and (min-width: 1080px) {
+    .conteudo {
+        height: calc(100% - 9px);
+        padding-top:25%;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .conteudo p {
+         font-size: 50px;
+         color:#004d70;
+         font-weight: 300;
+         line-height: 55px;
+    }
+}
+
+.adjust-button {
+    margin-top: 100px;
+}
+
+@media only screen and (max-width: 640px) {
+    .adjust-button {
+        margin: 30px 50px;
+        text-align: center !important;
+    }   
+}
+
+@media only screen and (max-width: 320px) {
+    .adjust-button {
+        margin: 30px 0px;
+        text-align: center !important;
+    }   
+}

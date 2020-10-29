@@ -81,7 +81,7 @@
                             Só vendo para crer. É por isso que muitos alunos formados na SBBio acabam se dedicando profissionalmente ao Biomagnetismo.</p>
                         </div>
                         <div class="col-12 text-right">
-                            <button onclick="window.open('http://bit.ly/IntroducaoeBasicoeAvancado', '_blank');"  class="btn-frm-novas-turmas" id="enviar-quero-fazer-o-curso">Informações & Inscrição</button>
+                            <button onclick="window.open('http://bit.ly/IntroducaoeBasicoeAvancado', '_blank');"  class="btn-frm-novas-turmas large" id="enviar-quero-fazer-o-curso">Informações & Inscrição</button>
                         </div>
                     </div>
 
