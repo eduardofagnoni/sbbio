@@ -847,3 +847,22 @@ Section Home Produtos
         text-align: center !important;
     }   
 }
+
+.contenido-slider.comment-video ul div.slick-list div.slick-track div.slick-slide {
+    width: 900px !important;
+}
+
+.contenido-slider.comment-video ul div.slick-list div.slick-track div.slick-slide .item-content {
+    display: inline;
+}
+
+
+.contenido-slider.comment-video ul div.slick-list div.slick-track div.slick-slide .item-content .conteudo {
+    width: 100%;
+}
+
+.contenido-slider.comment-video ul div.slick-list div.slick-track div.slick-slide .item-content img {
+    width: 500px;
+    height: 450px;
+}
+
