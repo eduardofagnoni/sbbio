@@ -73,7 +73,7 @@
             <section class="nossos-cursos">
                 <div class="container">                    
                     <div class="row">
-                        <div class="col-12 col-md-12">
+                        <div class="col-12">
                             <h3><strong>Formação de Terapeutas: Biomagnetismo para a recuperação da saúde.</strong><br> Curso - introdução & Básico & Avançado .</h3>
                             <p>56 horas – 7 dias.<br>
                             Três cursos em um único, superintensivo, com parte teórica e prática entre alunos nos primeiros 4 dias do curso. Os outros 3 dias do curso são dedicados ao atendimento de pelo menos 4 pessoas por dia, totalizando pelo menos 12 pessoas atendidas por cada aluno, em duplas, durante o curso.<br><br>
@@ -81,7 +81,7 @@
                             Só vendo para crer. É por isso que muitos alunos formados na SBBio acabam se dedicando profissionalmente ao Biomagnetismo.</p>
                         </div>
                         <div class="col-12 text-right">
-                            <button onclick="window.open('http://bit.ly/IntroducaoeBasicoeAvancado', '_blank');"  class="btn-frm-novas-turmas" id="enviar-quero-fazer-o-curso">Enviar</button>
+                            <button onclick="window.open('http://bit.ly/IntroducaoeBasicoeAvancado', '_blank');"  class="btn-frm-novas-turmas" id="enviar-quero-fazer-o-curso">Informações & Inscrição</button>
                         </div>
                     </div>
 
@@ -93,10 +93,10 @@
                 <div class="container">                   
                           
                     <div class="row">
-                        <div class="col-10">
+                        <div class="col-xs-8 col-sm-12 col-md-8">
                             <h2>Faça já sua inscrição</h2>
                         </div>
-                        <div class="col-2 adjust-button text-right">
+                        <div class="col-xs-4 col-sm-12 col-md-4 adjust-button text-right">
                             <button class="btn-frm-novas-turmas" id="enviar-quero-fazer-o-curso">Saiba mais</button>
                         </div>
                     </div>                         

@@ -172,3 +172,17 @@
 .adjust-button {
     margin-top: 100px;
 }
+
+@media only screen and (max-width: 640px) {
+    .adjust-button {
+        margin: 30px 50px;
+        text-align: center !important;
+    }   
+}
+
+@media only screen and (max-width: 320px) {
+    .adjust-button {
+        margin: 30px 0px;
+        text-align: center !important;
+    }   
+}
