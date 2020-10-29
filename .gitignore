@@ -1,8 +1,9 @@
 assets/
 admin/
 font-awesome/
+.vs/
+.vsconde/
 __etapas.txt
 sitemap.xml
 web.config
 .htaccess
-.vs/
