@@ -97,7 +97,7 @@
                             <h2>Faça já sua inscrição</h2>
                         </div>
                         <div class="col-xs-4 col-sm-12 col-md-4 adjust-button text-right">
-                            <button class="btn-frm-novas-turmas" id="enviar-quero-fazer-o-curso">Saiba mais</button>
+                            <button onclick="window.open('http://bit.ly/IntroducaoeBasicoeAvancado', '_blank');" class="btn-frm-novas-turmas" id="enviar-quero-fazer-o-curso">Saiba mais</button>
                         </div>
                     </div>                         
                                         
@@ -136,16 +136,12 @@
                     <div class="col-xs-12 col-sm-8 col-md-9">
                         <div class="contenido-slider comment-video">
                             <ul class="conteudo regular slider itens-do-slider">      
+                                
                                 <li class="item">                                                
                                     <span class="item-content">             
                                         <div class="container-fluid zera-margens">
                                             <div class="row">
-                                                <div class="col-12 col-md-6">
-                                                    <div class="conteudo">
-                                                        <p>Com o Biomagnetismo é possível tratar muitas doenças, físicas e psicomocionais.</p>                                
-                                                    </div>
-                                                </div>
-                                                <div class="col-12 col-md-6">
+                                                <div class="col-12">
                                                     <img src="images/bg-videos.jpg" alt="">
                                                     <div class="play  js-video-button" data-video-id='owoH5SkUmG4' >                        
                                                         <i class="fa fa-play" aria-hidden="true"></i>
@@ -159,12 +155,7 @@
                                     <span class="item-content">             
                                         <div class="container-fluid zera-margens">
                                             <div class="row">
-                                                <div class="col-12 col-md-6">
-                                                    <div class="conteudo">
-                                                        <p>Com o Biomagnetismo é possível tratar muitas doenças, físicas e psicomocionais.</p>                                
-                                                    </div>
-                                                </div>
-                                                <div class="col-12 col-md-6">
+                                                <div class="col-12">
                                                     <img src="images/bg-videos.jpg" alt="">
                                                     <div class="play  js-video-button" data-video-id='owoH5SkUmG4' >                        
                                                         <i class="fa fa-play" aria-hidden="true"></i>
@@ -178,12 +169,7 @@
                                     <span class="item-content">             
                                         <div class="container-fluid zera-margens">
                                             <div class="row">
-                                                <div class="col-12 col-md-6">
-                                                    <div class="conteudo">
-                                                        <p>Com o Biomagnetismo é possível tratar muitas doenças, físicas e psicomocionais.</p>                                
-                                                    </div>
-                                                </div>
-                                                <div class="col-12 col-md-6">
+                                                <div class="col-12">
                                                     <img src="images/bg-videos.jpg" alt="">
                                                     <div class="play  js-video-button" data-video-id='owoH5SkUmG4' >                        
                                                         <i class="fa fa-play" aria-hidden="true"></i>
@@ -197,12 +183,7 @@
                                     <span class="item-content">             
                                         <div class="container-fluid zera-margens">
                                             <div class="row">
-                                                <div class="col-12 col-md-6">
-                                                    <div class="conteudo">
-                                                        <p>Com o Biomagnetismo é possível tratar muitas doenças, físicas e psicomocionais.</p>                                
-                                                    </div>
-                                                </div>
-                                                <div class="col-12 col-md-6">
+                                                <div class="col-12">
                                                     <img src="images/bg-videos.jpg" alt="">
                                                     <div class="play  js-video-button" data-video-id='owoH5SkUmG4' >                        
                                                         <i class="fa fa-play" aria-hidden="true"></i>
@@ -216,12 +197,7 @@
                                     <span class="item-content">             
                                         <div class="container-fluid zera-margens">
                                             <div class="row">
-                                                <div class="col-12 col-md-6">
-                                                    <div class="conteudo">
-                                                        <p>Com o Biomagnetismo é possível tratar muitas doenças, físicas e psicomocionais.</p>                                
-                                                    </div>
-                                                </div>
-                                                <div class="col-12 col-md-6">
+                                                <div class="col-12">
                                                     <img src="images/bg-videos.jpg" alt="">
                                                     <div class="play  js-video-button" data-video-id='owoH5SkUmG4' >                        
                                                         <i class="fa fa-play" aria-hidden="true"></i>
@@ -235,12 +211,7 @@
                                     <span class="item-content">             
                                         <div class="container-fluid zera-margens">
                                             <div class="row">
-                                                <div class="col-12 col-md-6">
-                                                    <div class="conteudo">
-                                                        <p>Com o Biomagnetismo é possível tratar muitas doenças, físicas e psicomocionais.</p>                                
-                                                    </div>
-                                                </div>
-                                                <div class="col-12 col-md-6">
+                                                <div class="col-12">
                                                     <img src="images/bg-videos.jpg" alt="">
                                                     <div class="play  js-video-button" data-video-id='owoH5SkUmG4' >                        
                                                         <i class="fa fa-play" aria-hidden="true"></i>
@@ -254,12 +225,7 @@
                                     <span class="item-content">             
                                         <div class="container-fluid zera-margens">
                                             <div class="row">
-                                                <div class="col-12 col-md-6">
-                                                    <div class="conteudo">
-                                                        <p>Com o Biomagnetismo é possível tratar muitas doenças, físicas e psicomocionais.</p>                                
-                                                    </div>
-                                                </div>
-                                                <div class="col-12 col-md-6">
+                                                <div class="col-12">
                                                     <img src="images/bg-videos.jpg" alt="">
                                                     <div class="play  js-video-button" data-video-id='owoH5SkUmG4' >                        
                                                         <i class="fa fa-play" aria-hidden="true"></i>
@@ -273,12 +239,7 @@
                                     <span class="item-content">             
                                         <div class="container-fluid zera-margens">
                                             <div class="row">
-                                                <div class="col-12 col-md-6">
-                                                    <div class="conteudo">
-                                                        <p>Com o Biomagnetismo é possível tratar muitas doenças, físicas e psicomocionais.</p>                                
-                                                    </div>
-                                                </div>
-                                                <div class="col-12 col-md-6">
+                                                <div class="col-12">
                                                     <img src="images/bg-videos.jpg" alt="">
                                                     <div class="play  js-video-button" data-video-id='owoH5SkUmG4' >                        
                                                         <i class="fa fa-play" aria-hidden="true"></i>
@@ -292,12 +253,7 @@
                                     <span class="item-content">             
                                         <div class="container-fluid zera-margens">
                                             <div class="row">
-                                                <div class="col-12 col-md-6">
-                                                    <div class="conteudo">
-                                                        <p>Com o Biomagnetismo é possível tratar muitas doenças, físicas e psicomocionais.</p>                                
-                                                    </div>
-                                                </div>
-                                                <div class="col-12 col-md-6">
+                                                <div class="col-12">
                                                     <img src="images/bg-videos.jpg" alt="">
                                                     <div class="play  js-video-button" data-video-id='owoH5SkUmG4' >                        
                                                         <i class="fa fa-play" aria-hidden="true"></i>
@@ -311,12 +267,7 @@
                                     <span class="item-content">             
                                         <div class="container-fluid zera-margens">
                                             <div class="row">
-                                                <div class="col-12 col-md-6">
-                                                    <div class="conteudo">
-                                                        <p>Com o Biomagnetismo é possível tratar muitas doenças, físicas e psicomocionais.</p>                                
-                                                    </div>
-                                                </div>
-                                                <div class="col-12 col-md-6">
+                                                <div class="col-12">
                                                     <img src="images/bg-videos.jpg" alt="">
                                                     <div class="play  js-video-button" data-video-id='owoH5SkUmG4' >                        
                                                         <i class="fa fa-play" aria-hidden="true"></i>
@@ -330,12 +281,21 @@
                                     <span class="item-content">             
                                         <div class="container-fluid zera-margens">
                                             <div class="row">
-                                                <div class="col-12 col-md-6">
-                                                    <div class="conteudo">
-                                                        <p>Com o Biomagnetismo é possível tratar muitas doenças, físicas e psicomocionais.</p>                                
-                                                    </div>
+                                                <div class="col-12">
+                                                    <img src="images/bg-videos.jpg" alt="">
+                                                    <div class="play  js-video-button" data-video-id='owoH5SkUmG4' >                        
+                                                        <i class="fa fa-play" aria-hidden="true"></i>
+                                                    </div>                                    
                                                 </div>
-                                                <div class="col-12 col-md-6">
+                                            </div>                              
+                                        </div>
+                                    </span>                                                         
+                                </li>
+                                <li class="item">                                                
+                                    <span class="item-content">             
+                                        <div class="container-fluid zera-margens">
+                                            <div class="row">
+                                                <div class="col-12">
                                                     <img src="images/bg-videos.jpg" alt="">
                                                     <div class="play  js-video-button" data-video-id='owoH5SkUmG4' >                        
                                                         <i class="fa fa-play" aria-hidden="true"></i>
@@ -396,12 +356,20 @@
         <script src="js/wow.min.js"></script>
         <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 
-        <link rel="stylesheet" href="css/custom-quero-fazer-o-curso.css">
-
         <script src="assets/slick/slick.min.js" type="text/javascript" charset="utf-8"></script>
 
+        <script src="modal-video/js/jquery-modal-video.min.js"></script>  
 
         <script src="js/main.js"></script>   
+
+        <script>
+            $(".js-video-button").modalVideo({
+                youtube:{
+                    controls:1,
+                    nocookie: true
+                }
+            });
+        </script>
         
         <script type="text/javascript">        
       

@@ -849,7 +849,7 @@ Section Home Produtos
 }
 
 .contenido-slider.comment-video ul div.slick-list div.slick-track div.slick-slide {
-    width: 900px !important;
+    width: 600px !important;
 }
 
 .contenido-slider.comment-video ul div.slick-list div.slick-track div.slick-slide .item-content {
@@ -862,7 +862,31 @@ Section Home Produtos
 }
 
 .contenido-slider.comment-video ul div.slick-list div.slick-track div.slick-slide .item-content img {
-    width: 500px;
-    height: 450px;
+    width: 550px;
+    height: 440px;
+}
+.contenido-slider.comment-video ul div.slick-list div.slick-track div.slick-slide .item-content div.play {
+    position: relative;
+    bottom: 255px;
+    left: 240px;
+    width: 82px;
+    height: 82px;
+    background-color: #4e4e99;
+    border-radius: 50px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+.contenido-slider.comment-video ul div.slick-list div.slick-track div.slick-slide .item-content div.play:hover {
+    background-color: #cf8262;
+    transition: all 0.3s;
+}
+.contenido-slider.comment-video ul div.slick-list div.slick-track div.slick-slide .item-content div.play {
+    font-size: 30px;
+    color: #08acd8;
+}
+.contenido-slider.comment-video ul div.slick-list div.slick-track div.slick-slide .item-content div.play:hover {
+    color: #004d70;
+    transition: all 0.3s;
 }
 
