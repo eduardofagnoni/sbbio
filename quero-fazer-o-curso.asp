@@ -129,20 +129,20 @@
                         <h2>Depoimentos</h2>
                         <p>Veja o depoimento de alunos formados pela Sociedade Brasileira de Biomagnetismo.</p>
                         <ul>
-                            <li class="left"><span class="fa fa-caret-left"></span></li>
-                            <li class="right"><span class="fa fa-caret-right"></span></li>
+                            <li class="video-left"><span class="fa fa-caret-left"></span></li>
+                            <li class="video-right"><span class="fa fa-caret-right"></span></li>
                         </ul>
                     </div>
                     <div class="col-xs-12 col-sm-8 col-md-9">
                         <div class="contenido-slider comment-video">
-                            <ul class="conteudo regular slider itens-do-slider">      
+                            <ul class="conteudo regular video-slider itens-do-slider">      
                                 
                                 <li class="item">                                                
                                     <span class="item-content">             
                                         <div class="container-fluid zera-margens">
                                             <div class="row">
                                                 <div class="col-12">
-                                                    <img src="images/bg-videos.jpg" alt="">
+                                                    <img src="images/thumb-alunos-depo/1_LUCIENE.png" alt="LUCIENE">
                                                     <div class="play  js-video-button" data-video-id='owoH5SkUmG4' >                        
                                                         <i class="fa fa-play" aria-hidden="true"></i>
                                                     </div>                                    
@@ -156,7 +156,7 @@
                                         <div class="container-fluid zera-margens">
                                             <div class="row">
                                                 <div class="col-12">
-                                                    <img src="images/bg-videos.jpg" alt="">
+                                                    <img src="images/thumb-alunos-depo/2_ALEX.png" alt="ALEX">
                                                     <div class="play  js-video-button" data-video-id='owoH5SkUmG4' >                        
                                                         <i class="fa fa-play" aria-hidden="true"></i>
                                                     </div>                                    
@@ -170,7 +170,7 @@
                                         <div class="container-fluid zera-margens">
                                             <div class="row">
                                                 <div class="col-12">
-                                                    <img src="images/bg-videos.jpg" alt="">
+                                                    <img src="images/thumb-alunos-depo/3_SIMONE.png" alt="SIMONE">
                                                     <div class="play  js-video-button" data-video-id='owoH5SkUmG4' >                        
                                                         <i class="fa fa-play" aria-hidden="true"></i>
                                                     </div>                                    
@@ -184,7 +184,7 @@
                                         <div class="container-fluid zera-margens">
                                             <div class="row">
                                                 <div class="col-12">
-                                                    <img src="images/bg-videos.jpg" alt="">
+                                                    <img src="images/thumb-alunos-depo/4_PAULO.png" alt="PAULO">
                                                     <div class="play  js-video-button" data-video-id='owoH5SkUmG4' >                        
                                                         <i class="fa fa-play" aria-hidden="true"></i>
                                                     </div>                                    
@@ -198,7 +198,7 @@
                                         <div class="container-fluid zera-margens">
                                             <div class="row">
                                                 <div class="col-12">
-                                                    <img src="images/bg-videos.jpg" alt="">
+                                                    <img src="images/thumb-alunos-depo/5_MATEUS.png" alt="MATEUS">
                                                     <div class="play  js-video-button" data-video-id='owoH5SkUmG4' >                        
                                                         <i class="fa fa-play" aria-hidden="true"></i>
                                                     </div>                                    
@@ -212,7 +212,7 @@
                                         <div class="container-fluid zera-margens">
                                             <div class="row">
                                                 <div class="col-12">
-                                                    <img src="images/bg-videos.jpg" alt="">
+                                                    <img src="images/thumb-alunos-depo/6_SONIA.png" alt="SONIA">
                                                     <div class="play  js-video-button" data-video-id='owoH5SkUmG4' >                        
                                                         <i class="fa fa-play" aria-hidden="true"></i>
                                                     </div>                                    
@@ -226,7 +226,7 @@
                                         <div class="container-fluid zera-margens">
                                             <div class="row">
                                                 <div class="col-12">
-                                                    <img src="images/bg-videos.jpg" alt="">
+                                                    <img src="images/thumb-alunos-depo/7_JALECO.png" alt="JALECO">
                                                     <div class="play  js-video-button" data-video-id='owoH5SkUmG4' >                        
                                                         <i class="fa fa-play" aria-hidden="true"></i>
                                                     </div>                                    
@@ -240,7 +240,7 @@
                                         <div class="container-fluid zera-margens">
                                             <div class="row">
                                                 <div class="col-12">
-                                                    <img src="images/bg-videos.jpg" alt="">
+                                                    <img src="images/thumb-alunos-depo/8_COMEMORACAO.png" alt="COMEMORACAO">
                                                     <div class="play  js-video-button" data-video-id='owoH5SkUmG4' >                        
                                                         <i class="fa fa-play" aria-hidden="true"></i>
                                                     </div>                                    
@@ -248,65 +248,7 @@
                                             </div>                              
                                         </div>
                                     </span>                                                         
-                                </li>
-                                <li class="item">                                                
-                                    <span class="item-content">             
-                                        <div class="container-fluid zera-margens">
-                                            <div class="row">
-                                                <div class="col-12">
-                                                    <img src="images/bg-videos.jpg" alt="">
-                                                    <div class="play  js-video-button" data-video-id='owoH5SkUmG4' >                        
-                                                        <i class="fa fa-play" aria-hidden="true"></i>
-                                                    </div>                                    
-                                                </div>
-                                            </div>                              
-                                        </div>
-                                    </span>                                                         
-                                </li>
-                                <li class="item">                                                
-                                    <span class="item-content">             
-                                        <div class="container-fluid zera-margens">
-                                            <div class="row">
-                                                <div class="col-12">
-                                                    <img src="images/bg-videos.jpg" alt="">
-                                                    <div class="play  js-video-button" data-video-id='owoH5SkUmG4' >                        
-                                                        <i class="fa fa-play" aria-hidden="true"></i>
-                                                    </div>                                    
-                                                </div>
-                                            </div>                              
-                                        </div>
-                                    </span>                                                         
-                                </li>
-                                <li class="item">                                                
-                                    <span class="item-content">             
-                                        <div class="container-fluid zera-margens">
-                                            <div class="row">
-                                                <div class="col-12">
-                                                    <img src="images/bg-videos.jpg" alt="">
-                                                    <div class="play  js-video-button" data-video-id='owoH5SkUmG4' >                        
-                                                        <i class="fa fa-play" aria-hidden="true"></i>
-                                                    </div>                                    
-                                                </div>
-                                            </div>                              
-                                        </div>
-                                    </span>                                                         
-                                </li>
-                                <li class="item">                                                
-                                    <span class="item-content">             
-                                        <div class="container-fluid zera-margens">
-                                            <div class="row">
-                                                <div class="col-12">
-                                                    <img src="images/bg-videos.jpg" alt="">
-                                                    <div class="play  js-video-button" data-video-id='owoH5SkUmG4' >                        
-                                                        <i class="fa fa-play" aria-hidden="true"></i>
-                                                    </div>                                    
-                                                </div>
-                                            </div>                              
-                                        </div>
-                                    </span>                                                         
-                                </li>
-
-                                
+                                </li>                                
                             </ul>
                         </div>
                     </div>
@@ -419,7 +361,15 @@
       
           $('.right').click(function(){
             $('.slider').slick('slickNext');
+          });
+
+          $('.video-left').click(function(){
+            $('.video-slider').slick('slickPrev');
           })
+      
+          $('.video-right').click(function(){
+            $('.video-slider').slick('slickNext');
+          });
 
 
 

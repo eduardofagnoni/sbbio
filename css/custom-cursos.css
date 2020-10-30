@@ -850,6 +850,7 @@ Section Home Produtos
 
 .contenido-slider.comment-video ul div.slick-list div.slick-track div.slick-slide {
     width: 600px !important;
+    padding-top: 30px;
 }
 
 .contenido-slider.comment-video ul div.slick-list div.slick-track div.slick-slide .item-content {
