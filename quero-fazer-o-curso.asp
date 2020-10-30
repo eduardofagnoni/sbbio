@@ -135,7 +135,7 @@
                     </div>
                     <div class="col-xs-12 col-sm-8 col-md-9">
                         <div class="contenido-slider comment-video">
-                            <ul class="conteudo regular video-slider itens-do-slider">      
+                            <ul class="conteudo video-regular video-slider itens-do-slider">      
                                 
                                 <li class="item">                                                
                                     <span class="item-content">             
@@ -143,7 +143,7 @@
                                             <div class="row">
                                                 <div class="col-12">
                                                     <img src="images/thumb-alunos-depo/1_LUCIENE.png" alt="LUCIENE">
-                                                    <div class="play  js-video-button" data-video-id='owoH5SkUmG4' >                        
+                                                    <div class="play  js-video-button" data-video-id='I3XHzU6X40E' >                        
                                                         <i class="fa fa-play" aria-hidden="true"></i>
                                                     </div>                                    
                                                 </div>
@@ -157,7 +157,7 @@
                                             <div class="row">
                                                 <div class="col-12">
                                                     <img src="images/thumb-alunos-depo/2_ALEX.png" alt="ALEX">
-                                                    <div class="play  js-video-button" data-video-id='owoH5SkUmG4' >                        
+                                                    <div class="play  js-video-button" data-video-id='BqoFyvTF1Og' >                        
                                                         <i class="fa fa-play" aria-hidden="true"></i>
                                                     </div>                                    
                                                 </div>
@@ -171,7 +171,7 @@
                                             <div class="row">
                                                 <div class="col-12">
                                                     <img src="images/thumb-alunos-depo/3_SIMONE.png" alt="SIMONE">
-                                                    <div class="play  js-video-button" data-video-id='owoH5SkUmG4' >                        
+                                                    <div class="play  js-video-button" data-video-id='-pyws3FXGhk' >                        
                                                         <i class="fa fa-play" aria-hidden="true"></i>
                                                     </div>                                    
                                                 </div>
@@ -185,7 +185,7 @@
                                             <div class="row">
                                                 <div class="col-12">
                                                     <img src="images/thumb-alunos-depo/4_PAULO.png" alt="PAULO">
-                                                    <div class="play  js-video-button" data-video-id='owoH5SkUmG4' >                        
+                                                    <div class="play  js-video-button" data-video-id='v2-cjIysljc' >                        
                                                         <i class="fa fa-play" aria-hidden="true"></i>
                                                     </div>                                    
                                                 </div>
@@ -199,7 +199,7 @@
                                             <div class="row">
                                                 <div class="col-12">
                                                     <img src="images/thumb-alunos-depo/5_MATEUS.png" alt="MATEUS">
-                                                    <div class="play  js-video-button" data-video-id='owoH5SkUmG4' >                        
+                                                    <div class="play  js-video-button" data-video-id='oG61ILRsrFY' >                        
                                                         <i class="fa fa-play" aria-hidden="true"></i>
                                                     </div>                                    
                                                 </div>
@@ -213,7 +213,7 @@
                                             <div class="row">
                                                 <div class="col-12">
                                                     <img src="images/thumb-alunos-depo/6_SONIA.png" alt="SONIA">
-                                                    <div class="play  js-video-button" data-video-id='owoH5SkUmG4' >                        
+                                                    <div class="play  js-video-button" data-video-id='96sxY8JTkqQ' >                        
                                                         <i class="fa fa-play" aria-hidden="true"></i>
                                                     </div>                                    
                                                 </div>
@@ -227,7 +227,7 @@
                                             <div class="row">
                                                 <div class="col-12">
                                                     <img src="images/thumb-alunos-depo/7_JALECO.png" alt="JALECO">
-                                                    <div class="play  js-video-button" data-video-id='owoH5SkUmG4' >                        
+                                                    <div class="play  js-video-button" data-video-id='hblCZCAW6l4' >                        
                                                         <i class="fa fa-play" aria-hidden="true"></i>
                                                     </div>                                    
                                                 </div>
@@ -241,7 +241,7 @@
                                             <div class="row">
                                                 <div class="col-12">
                                                     <img src="images/thumb-alunos-depo/8_COMEMORACAO.png" alt="COMEMORACAO">
-                                                    <div class="play  js-video-button" data-video-id='owoH5SkUmG4' >                        
+                                                    <div class="play  js-video-button" data-video-id='qt29Yv9GeB0' >                        
                                                         <i class="fa fa-play" aria-hidden="true"></i>
                                                     </div>                                    
                                                 </div>
@@ -313,7 +313,10 @@
             });
         </script>
         
-        <script type="text/javascript">        
+        <script type="text/javascript">  
+
+            var carroselValue = 360;
+            var multiple = 3;      
       
             $(".regular").slick({
               arrows: false,
@@ -321,6 +324,46 @@
               dots: false,
               infinite: true,
               slidesToShow: 5,
+              slidesToScroll: 1,
+              responsive: [
+                  {
+                      breakpoint: 1800,
+                      settings: {
+                      slidesToShow: 4,
+                      slidesToScroll: 1
+                      }
+                  },
+                  {
+                      breakpoint: 992,
+                      settings: {
+                      slidesToShow: 3,
+                      slidesToScroll: 1
+                      }
+                  },
+                  {
+                      breakpoint: 762,
+                      settings: {
+                      slidesToShow: 2,
+                      slidesToScroll: 1
+                      }
+                  },
+                  {
+                      breakpoint: 360,
+                      settings: {
+                      slidesToShow: 1,
+                      slidesToScroll: 1
+                      }
+                  }
+      
+              ]
+            });
+
+            $(".video-regular").slick({
+              arrows: false,
+              //mobileFirst: true,
+              dots: false,
+              infinite: true,
+              slidesToShow: 9,
               slidesToScroll: 1,
               responsive: [
                   {
