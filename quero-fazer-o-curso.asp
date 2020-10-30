@@ -80,7 +80,7 @@
                             As pessoas atendidas pagam uma taxa para serem tratadas pelos alunos. Os valores arrecadados com os atendimentos são doados para entidade assistencial definida pelos alunos. Não dá para acreditar, não é ?  <br><br>
                             Só vendo para crer. É por isso que muitos alunos formados na SBBio acabam se dedicando profissionalmente ao Biomagnetismo.</p>
                         </div>
-                        <div class="col-12 text-right">
+                        <div class="col-12 text-left">
                             <button onclick="window.open('http://bit.ly/IntroducaoeBasicoeAvancado', '_blank');"  class="btn-frm-novas-turmas large" id="enviar-quero-fazer-o-curso">Informações & Inscrição</button>
                         </div>
                     </div>
