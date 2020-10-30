@@ -89,21 +89,6 @@
                 </div>
             </section>
 
-            <section class="sobre-novas-turmas">
-                <div class="container">                   
-                          
-                    <div class="row">
-                        <div class="col-xs-8 col-sm-12 col-md-8">
-                            <h2>Faça já sua inscrição</h2>
-                        </div>
-                        <div class="col-xs-4 col-sm-12 col-md-4 adjust-button text-right">
-                            <button onclick="window.open('http://bit.ly/IntroducaoeBasicoeAvancado', '_blank');" class="btn-frm-novas-turmas" id="enviar-quero-fazer-o-curso">Saiba mais</button>
-                        </div>
-                    </div>                         
-                                        
-                </div>
-            </section>
-
             <section id="videoBio" class="video-bio">
                 <div class="container-fluid zera-margens">
                     <div class="row">
@@ -120,6 +105,21 @@
                         </div>
                     </div>                              
                 </div>                
+            </section>
+
+            <section class="sobre-novas-turmas">
+                <div class="container">                   
+                          
+                    <div class="row">
+                        <div class="col-xs-8 col-sm-12 col-md-8">
+                            <h2>Faça já sua inscrição</h2>
+                        </div>
+                        <div class="col-xs-4 col-sm-12 col-md-4 adjust-button text-right">
+                            <button onclick="window.open('http://bit.ly/IntroducaoeBasicoeAvancado', '_blank');" class="btn-frm-novas-turmas" id="enviar-quero-fazer-o-curso">Saiba mais</button>
+                        </div>
+                    </div>                         
+                                        
+                </div>
             </section>
 
             <section class="conteiner-slider textos-laterais">
