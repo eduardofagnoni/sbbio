@@ -72,7 +72,7 @@
                         <ul class="redes-sociais">
                             <li><a href="https://www.youtube.com/channel/UCU3n3CKsPx0IHJhPfTx_RzQ" target="_blank"><img src="images/ico/youtube.gif" alt="Youtube"></a></li>
                             <li><a href="https://www.facebook.com/Biomagnetismo-101892824753314" target="_blank"><img src="images/ico/facebook.gif" alt="Facebook"></a></li>
-                            <li><a href="https://www.instagram.com/biomagnetismooficial/?hl=pt-br" target="_blank"><img src="images/ico/instagram.gif" alt="Instagram"></a></li>
+                            <li><a href="https://www.instagram.com/sbbiomagnetismo/" target="_blank"><img src="images/ico/instagram.gif" alt="Instagram"></a></li>
                         </ul>
                     </div>
                 </div>

@@ -64,7 +64,7 @@
                 <div class="container">
                     <div class="row">                        
                         <div class="col-12">
-                            <p>Devido ao surto do Covid-19 e às orientações da OMS, nossos cursos, workshops e demais atividades estão suspensos por tempo indeterminado. Fique atento às novidades e confira alguns cursos já realizados pela SBBio.</p>
+                            <p>Nosso objetivo não é simplesmente administrar cursos. É formar pessoas que consigam praticar o Biomagnetismo durante e após o curso.  É por isso que muitos alunos formados na SBBio acabam se dedicando ao Biomagnetismo, em tempo parcial ou integral.</p>
                         </div>
                     </div>
                 </div>
@@ -73,15 +73,15 @@
             <section class="nossos-cursos">
                 <div class="container">                    
                     <div class="row">
-                        <div class="col-12 col-md-6">
-                            <h3><strong>Formação de Terapeutas: Biomagnetismo para a recuperação da saúde.</strong><br> Curso – Introdução ao Biomagnetismo.</h3>
-                            <p>8 horas.<br>
-                            Um intensivo com o objetivo de introduzir a teoria e prática do Biomagnetismo e despertar novos terapeutas para a prática do rastreio e tratamento com a utilização de ímãs.</p>
+                        <div class="col-12">
+                            <h3><strong>Formação de Terapeutas: Biomagnetismo para a recuperação da saúde.</strong><br> Curso - introdução & Básico & Avançado .</h3>
+                            <p>56 horas – 7 dias.<br>
+                            Três cursos em um único, superintensivo, com parte teórica e prática entre alunos nos primeiros 4 dias do curso. Os outros 3 dias do curso são dedicados ao atendimento de pelo menos 4 pessoas por dia, totalizando pelo menos 12 pessoas atendidas por cada aluno, em duplas, durante o curso.<br><br>
+                            As pessoas atendidas pagam uma taxa para serem tratadas pelos alunos. Os valores arrecadados com os atendimentos são doados para entidade assistencial definida pelos alunos. Não dá para acreditar, não é ?  <br><br>
+                            Só vendo para crer. É por isso que muitos alunos formados na SBBio acabam se dedicando profissionalmente ao Biomagnetismo.</p>
                         </div>
-                        <div class="col-12 col-md-6">
-                            <h3><strong>Formação de Terapeutas: Biomagnetismo para a recuperação da saúde.</strong><br> Curso Básico e Avançado 1.</h3>                            
-                            <p>48 horas.<br>
-                            Dois cursos em um único superintensivo, com aulas práticas e teóricas. Desenvolvido para capacitar novos estudantes na Prática do Biomagnetismo, instruindo-os sobre o uso dos ímãs e da Bioenergética. </p>
+                        <div class="col-12 text-left">
+                            <button onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSf2GoJyMv7cbTXrWgq80M9hVo4cDm7eeS6QrfJMvo9xbjZpnQ/viewform', '_blank');"  class="btn-frm-novas-turmas large" id="enviar-quero-fazer-o-curso">Informações & Inscrição</button>
                         </div>
                     </div>
 
@@ -89,39 +89,172 @@
                 </div>
             </section>
 
+            <section id="videoBio" class="video-bio">
+                <div class="container-fluid zera-margens">
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="conteudo">
+                                <p>Com o Biomagnetismo é possível tratar muitas doenças, físicas e psicomocionais.</p>                                
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <img src="images/bg-videos.jpg" alt="">
+                            <div class="play  js-video-button" data-video-id='ZxSGk4mimsY' >                        
+                                <i class="fa fa-play" aria-hidden="true"></i>
+                            </div>                                    
+                        </div>
+                    </div>                              
+                </div>                
+            </section>
+
             <section class="sobre-novas-turmas">
                 <div class="container">                   
                           
                     <div class="row">
-                        <div class="col-12">
-                            <h2>Mantenha-se informado sobre novas turmas.</h2>
-                            <p>A SBBio está sempre realizando novos cursos, workshops e mutirões. Cadastre-se para ficar por dentro de todos eles.</p>
-                            <form action="__cadastro_newsletter.asp" method="post" id="frmNovasTurmas">
-                                <div class="row">
-                                    <div class="col-12 col-md-6">
-                                        <input type="text" id="txtNome" name="txtNome" placeholder="Nome:*" required />
-                                    </div>
-                                    <div class="col-12 col-md-6">
-                                        <input type="email" id="txtEmail" name="txtEmail" placeholder="E-mail:*" required />
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 text-right">
-                                        <button type="submit" class="btn-frm-novas-turmas" id="enviar-quero-fazer-o-curso">Enviar</button>
-                                    </div>
-                                </div>
-                            </form>
-
-                            <div class="popObrigado">
-                                <p class="text-center"><span>Seu cadastro foi realizado corretamente!</span></p>
-                            </div>
-
+                        <div class="col-xs-8 col-sm-12 col-md-8">
+                            <h2>Faça já sua inscrição</h2>
+                        </div>
+                        <div class="col-xs-4 col-sm-12 col-md-4 adjust-button text-right">
+                            <button onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSf2GoJyMv7cbTXrWgq80M9hVo4cDm7eeS6QrfJMvo9xbjZpnQ/viewform', '_blank');" class="btn-frm-novas-turmas" id="enviar-quero-fazer-o-curso">Saiba mais</button>
                         </div>
                     </div>                         
                                         
                 </div>
             </section>
 
+            <section class="conteiner-slider textos-laterais cont-videos" >
+                <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4 col-md-3">
+                        <h2>Depoimentos</h2>
+                        <p>Veja o depoimento de alunos formados pela Sociedade Brasileira de Biomagnetismo.</p>
+                        <ul>
+                            <li class="video-left"><span class="fa fa-caret-left"></span></li>
+                            <li class="video-right"><span class="fa fa-caret-right"></span></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-8 col-md-9">
+                        <div class="contenido-slider comment-video">
+                            <ul class="conteudo video-regular video-slider itens-do-slider">      
+                                
+                                <li class="item">                                                
+                                    <span class="item-content">             
+                                        <div class="container-fluid zera-margens">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <img src="images/thumb-alunos-depo/1_LUCIENE.png" alt="LUCIENE">
+                                                    <div class="play  js-video-button" data-video-id='I3XHzU6X40E' >                        
+                                                        <i class="fa fa-play" aria-hidden="true"></i>
+                                                    </div>                                    
+                                                </div>
+                                            </div>                              
+                                        </div>
+                                    </span>                                                         
+                                </li>
+                                <li class="item">                                                
+                                    <span class="item-content">             
+                                        <div class="container-fluid zera-margens">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <img src="images/thumb-alunos-depo/2_ALEX.png" alt="ALEX">
+                                                    <div class="play  js-video-button" data-video-id='BqoFyvTF1Og' >                        
+                                                        <i class="fa fa-play" aria-hidden="true"></i>
+                                                    </div>                                    
+                                                </div>
+                                            </div>                              
+                                        </div>
+                                    </span>                                                         
+                                </li>
+                                <li class="item">                                                
+                                    <span class="item-content">             
+                                        <div class="container-fluid zera-margens">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <img src="images/thumb-alunos-depo/3_SIMONE.png" alt="SIMONE">
+                                                    <div class="play  js-video-button" data-video-id='-pyws3FXGhk' >                        
+                                                        <i class="fa fa-play" aria-hidden="true"></i>
+                                                    </div>                                    
+                                                </div>
+                                            </div>                              
+                                        </div>
+                                    </span>                                                         
+                                </li>
+                                <li class="item">                                                
+                                    <span class="item-content">             
+                                        <div class="container-fluid zera-margens">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <img src="images/thumb-alunos-depo/4_PAULO.png" alt="PAULO">
+                                                    <div class="play  js-video-button" data-video-id='v2-cjIysljc' >                        
+                                                        <i class="fa fa-play" aria-hidden="true"></i>
+                                                    </div>                                    
+                                                </div>
+                                            </div>                              
+                                        </div>
+                                    </span>                                                         
+                                </li>
+                                <li class="item">                                                
+                                    <span class="item-content">             
+                                        <div class="container-fluid zera-margens">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <img src="images/thumb-alunos-depo/5_MATEUS.png" alt="MATEUS">
+                                                    <div class="play  js-video-button" data-video-id='oG61ILRsrFY' >                        
+                                                        <i class="fa fa-play" aria-hidden="true"></i>
+                                                    </div>                                    
+                                                </div>
+                                            </div>                              
+                                        </div>
+                                    </span>                                                         
+                                </li>
+                                <li class="item">                                                
+                                    <span class="item-content">             
+                                        <div class="container-fluid zera-margens">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <img src="images/thumb-alunos-depo/6_SONIA.png" alt="SONIA">
+                                                    <div class="play  js-video-button" data-video-id='96sxY8JTkqQ' >                        
+                                                        <i class="fa fa-play" aria-hidden="true"></i>
+                                                    </div>                                    
+                                                </div>
+                                            </div>                              
+                                        </div>
+                                    </span>                                                         
+                                </li>
+                                <li class="item">                                                
+                                    <span class="item-content">             
+                                        <div class="container-fluid zera-margens">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <img src="images/thumb-alunos-depo/7_JALECO.png" alt="JALECO">
+                                                    <div class="play  js-video-button" data-video-id='hblCZCAW6l4' >                        
+                                                        <i class="fa fa-play" aria-hidden="true"></i>
+                                                    </div>                                    
+                                                </div>
+                                            </div>                              
+                                        </div>
+                                    </span>                                                         
+                                </li>
+                                <li class="item">                                                
+                                    <span class="item-content">             
+                                        <div class="container-fluid zera-margens">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <img src="images/thumb-alunos-depo/8_COMEMORACAO.png" alt="COMEMORACAO">
+                                                    <div class="play  js-video-button" data-video-id='qt29Yv9GeB0' >                        
+                                                        <i class="fa fa-play" aria-hidden="true"></i>
+                                                    </div>                                    
+                                                </div>
+                                            </div>                              
+                                        </div>
+                                    </span>                                                         
+                                </li>                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </section>
 
 
             <section class="tratamentos-e-profissionalizacao"></section>
@@ -158,7 +291,7 @@
 
         <link rel="stylesheet" type="text/css" href="assets/slick/slick.css">  
 
-        <link rel="stylesheet" href="css/custom-cursos.css">
+        <link rel="stylesheet" href="css/custom-cursos-v2.css">
 
         <!-- javascript -->
         <script src="assets/jquery/jquery-3.4.1.min.js"></script>
@@ -167,10 +300,23 @@
 
         <script src="assets/slick/slick.min.js" type="text/javascript" charset="utf-8"></script>
 
+        <script src="modal-video/js/jquery-modal-video.min.js"></script>  
 
         <script src="js/main.js"></script>   
+
+        <script>
+            $(".js-video-button").modalVideo({
+                youtube:{
+                    controls:1,
+                    nocookie: true
+                }
+            });
+        </script>
         
-        <script type="text/javascript">        
+        <script type="text/javascript">  
+
+            var carroselValue = 360;
+            var multiple = 3;      
       
             $(".regular").slick({
               arrows: false,
@@ -211,14 +357,69 @@
       
               ]
             });
+
+            $('.left').click(function(){
+                $('.slider').slick('slickPrev');
+            })
+        
+            $('.right').click(function(){
+                $('.slider').slick('slickNext');
+            });
+
+
+
+
+            $(".video-regular").slick({
+              arrows: false,
+              //mobileFirst: true,
+              dots: false,
+              infinite: true,
+              slidesToShow: 5,
+              slidesToScroll: 1,
+              responsive: [
+                  {
+                      breakpoint: 1800,
+                      settings: {
+                      slidesToShow: 5,
+                      slidesToScroll: 1
+                      }
+                  },
+                  {
+                      breakpoint: 992,
+                      settings: {
+                      slidesToShow: 5,
+                      slidesToScroll: 1
+                      }
+                  },
+                  {
+                      breakpoint: 762,
+                      settings: {
+                      slidesToShow: 1,
+                      slidesToScroll: 1
+                      }
+                  },
+                  {
+                      breakpoint: 360,
+                      settings: {
+                      slidesToShow: 1,
+                      slidesToScroll: 1
+                      }
+                  }
       
-          $('.left').click(function(){
-            $('.slider').slick('slickPrev');
+              ]
+            });     
+          
+
+          $('.video-left').click(function(){
+            $('.video-slider').slick('slickPrev');
           })
       
-          $('.right').click(function(){
-            $('.slider').slick('slickNext');
-          })
+          $('.video-right').click(function(){
+            $('.video-slider').slick('slickNext');
+          });
+
+
+
 
 
 

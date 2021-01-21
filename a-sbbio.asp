@@ -84,10 +84,10 @@
                             <p><span>+DE 7.000</span><br>sessões <br>até 2020.</p>
                         </div>
                         <div class="col-12 col-md-4">
-                            <p><span>+DE 250</span><br>terapeutas <br>certificados.</p>
+                            <p><span>Cursos e <br>Certificados</span><br>registrados na <br>Biblioteca Nacional</p>
                         </div>
                         <div class="col-12 col-md-4">
-                            <p><span>Corpo docente </span><br>lecionado pelo médico <br>Dr. Isaac Goiz Duran.</p>
+                            <p><span>Corpo docente </span><br>formado pelo desenvolvedor <br>do Biomagnetismo, <br>Dr. Isaac Goiz Duran.</p>
                         </div>
                     </div>
                 </div>
