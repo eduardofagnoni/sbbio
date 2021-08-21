@@ -71,7 +71,7 @@
             </section>
 
             <section class="nossos-cursos">
-                <div class="container">                    
+                <div class="container">
                     <div class="row">
                         <div class="col-12">
                             <h3><strong>Formação de Terapeutas: Biomagnetismo para a recuperação da saúde.</strong><br> Curso - introdução & Básico & Avançado .</h3>
@@ -81,7 +81,7 @@
                             Só vendo para crer. É por isso que muitos alunos formados na SBBio acabam se dedicando profissionalmente ao Biomagnetismo.</p>
                         </div>
                         <div class="col-12 text-left">
-                            <button onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSf2GoJyMv7cbTXrWgq80M9hVo4cDm7eeS6QrfJMvo9xbjZpnQ/viewform', '_blank');"  class="btn-frm-novas-turmas large" id="enviar-quero-fazer-o-curso">Informações & Inscrição</button>
+                            <button onclick="window.open('http://bit.ly/CursoBiomagnestimoSet21', '_blank');"  class="btn-frm-novas-turmas large" id="enviar-quero-fazer-o-curso">Informações & Inscrição</button>
                         </div>
                     </div>
 
@@ -115,7 +115,7 @@
                             <h2>Faça já sua inscrição</h2>
                         </div>
                         <div class="col-xs-4 col-sm-12 col-md-4 adjust-button text-right">
-                            <button onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSf2GoJyMv7cbTXrWgq80M9hVo4cDm7eeS6QrfJMvo9xbjZpnQ/viewform', '_blank');" class="btn-frm-novas-turmas" id="enviar-quero-fazer-o-curso">Saiba mais</button>
+                            <button onclick="window.open('http://bit.ly/CursoBiomagnestimoSet21', '_blank');" class="btn-frm-novas-turmas" id="enviar-quero-fazer-o-curso">Saiba mais</button>
                         </div>
                     </div>                         
                                         
